@@ -13776,68 +13776,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<packages>
-<package name="JP1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" diameter="1.524" shape="octagon"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" diameter="1.524" shape="octagon"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="JP2E">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP1E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="JP2E" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CAP">
 <packages>
 <package name="CSMD0805">
@@ -15208,23 +15146,19 @@ Manufacturer: Hirose&lt;br&gt;
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R29" library="rcl" deviceset="R-EU_" device="R0402" value="470R"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="JP8" library="jumper" deviceset="JP1E" device="" value="LED1_PWR"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603"/>
-<part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
 <part name="R401" library="rcl" deviceset="R-EU_" device="R0402" value="33R"/>
 <part name="C403" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="4u7"/>
-<part name="JP1" library="jumper" deviceset="JP1E" device="" value="LED1_PWR"/>
-<part name="U402" library="tps62231dry" deviceset="TPS6223X_DRY_6" device="" value="TPS62237DRY"/>
+<part name="U402" library="tps62231dry" deviceset="TPS6223X_DRY_6" device="" value="TPS62233DRY"/>
 <part name="C404" library="CAP" deviceset="CSMD0805" device="" value="1u"/>
 <part name="C401" library="CAP" deviceset="CSMD0805" device="" value="1u"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="L401" library="MSP-EXP430F5659" deviceset="L-NR3010" device="" value="2.2uH (NR3010T2R2M)"/>
-<part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="D1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -15261,6 +15195,7 @@ Manufacturer: Hirose&lt;br&gt;
 <wire x1="127" y1="-92.71" x2="127" y2="-41.91" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="17.78" y1="-92.71" x2="127" y2="-92.71" width="0.1524" layer="95" style="shortdash"/>
 <text x="60.96" y="-45.72" size="1.778" layer="91">GPIO Programmable</text>
+<text x="-154.94" y="66.04" size="1.778" layer="91">Use jumper on pins 1 &amp; 2 for operation. Remove jumper to measure current.</text>
 </plain>
 <instances>
 <instance part="IC4" gate="G$1" x="-104.14" y="7.62"/>
@@ -15286,18 +15221,12 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="+3V4" gate="G$1" x="45.72" y="83.82" smashed="yes">
 <attribute name="VALUE" x="45.72" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="-134.62" y="88.9" smashed="yes">
-<attribute name="VALUE" x="-132.08" y="91.44" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V2" gate="G$1" x="-129.54" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-127" y="55.88" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R29" gate="G$1" x="129.54" y="68.58"/>
 <instance part="GND21" gate="1" x="154.94" y="60.96"/>
-<instance part="JP8" gate="A" x="116.84" y="71.12" smashed="yes">
-<attribute name="NAME" x="115.824" y="74.422" size="1.778" layer="95"/>
-</instance>
 <instance part="LED3" gate="G$1" x="139.7" y="68.58" rot="R90"/>
-<instance part="+3V5" gate="G$1" x="104.14" y="76.2" smashed="yes">
-<attribute name="VALUE" x="106.68" y="78.74" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="GND56" gate="1" x="68.58" y="17.78"/>
 <instance part="GND64" gate="1" x="76.2" y="-15.24"/>
 <instance part="C402" gate="G$1" x="68.58" y="-5.08" smashed="yes">
@@ -15311,9 +15240,6 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="C403" gate="G$1" x="76.2" y="-5.08" smashed="yes">
 <attribute name="NAME" x="77.724" y="-4.699" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.724" y="-9.779" size="1.778" layer="96"/>
-</instance>
-<instance part="JP1" gate="A" x="203.2" y="-7.62" smashed="yes">
-<attribute name="NAME" x="202.184" y="-4.318" size="1.778" layer="95"/>
 </instance>
 <instance part="U402" gate="&gt;NAME" x="142.24" y="-10.16"/>
 <instance part="C404" gate="G$2" x="137.16" y="-20.32" smashed="yes" rot="R90">
@@ -15330,9 +15256,6 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="L401" gate="G$1" x="157.48" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="160.02" y="8.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="170.18" y="3.81" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="+3V3" gate="G$1" x="213.36" y="0" smashed="yes">
-<attribute name="VALUE" x="215.9" y="2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D1" gate="G$1" x="53.34" y="-10.16" rot="R90"/>
 <instance part="GND4" gate="1" x="35.56" y="-30.48"/>
@@ -15492,19 +15415,15 @@ Manufacturer: Hirose&lt;br&gt;
 </segment>
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="-134.62" y1="83.82" x2="-134.62" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="1"/>
-<wire x1="116.84" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="104.14" y1="73.66" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="213.36" y1="-10.16" x2="213.36" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="-10.16" x2="213.36" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="-129.54" y1="48.26" x2="-129.54" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="48.26" x2="-101.6" y2="48.26" width="0.1524" layer="91"/>
+<label x="-119.38" y="48.26" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="-101.6" y1="48.26" x2="-129.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="45.72" x2="-101.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-101.6" y1="45.72" x2="-101.6" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-101.6" y="48.26"/>
 </segment>
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
@@ -15766,17 +15685,13 @@ Manufacturer: Hirose&lt;br&gt;
 <pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="JP8" gate="A" pin="2"/>
-<pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
-<wire x1="48.26" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R401" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="20.32" y1="5.08" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EZFET_VBUS" class="2">
@@ -15842,7 +15757,11 @@ Manufacturer: Hirose&lt;br&gt;
 <wire x1="165.1" y1="5.08" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="5.08" x2="175.26" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="175.26" y="-10.16"/>
-<pinref part="JP1" gate="A" pin="1"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="50.8" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
+<label x="-119.38" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO11_MOSI" class="0">
@@ -15867,6 +15786,18 @@ Manufacturer: Hirose&lt;br&gt;
 <pinref part="JP2" gate="A" pin="11"/>
 <wire x1="-71.12" y1="48.26" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
 <label x="-48.26" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWR_LED_JMPR" class="0">
+<segment>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="-93.98" y1="43.18" x2="-121.92" y2="43.18" width="0.1524" layer="91"/>
+<label x="-119.38" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<label x="104.14" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
