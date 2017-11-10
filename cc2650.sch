@@ -15192,134 +15192,46 @@ Manufacturer: Hirose&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="IC4" library="CC2650MODAMOHR(2)" deviceset="CC2650MODAMOHR" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="JTAG_CONNECTOR" library="FTSH-105-01-F-DV-K" deviceset="FTSH-105-01-F-DV-K" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="IC4" library="CC2650MODAMOHR(2)" deviceset="CC2650MODAMOHR" device=""/>
+<part name="JTAG_CONNECTOR" library="FTSH-105-01-F-DV-K" deviceset="FTSH-105-01-F-DV-K" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="BATTERY-HOLDER_11.6MM" device="" package3d_urn="urn:adsk.eagle:package:4616/1">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="SW1" library="adafruit" deviceset="SPST_TACT" device="-KMR2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="SW2" library="adafruit" deviceset="SPST_TACT" device="-KMR2">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="G1" library="battery" library_urn="urn:adsk.eagle:library:109" deviceset="BATTERY-HOLDER_11.6MM" device="" package3d_urn="urn:adsk.eagle:package:4616/1"/>
+<part name="SW1" library="adafruit" deviceset="SPST_TACT" device="-KMR2"/>
+<part name="SW2" library="adafruit" deviceset="SPST_TACT" device="-KMR2"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R27" library="rcl" deviceset="R-EU_" device="R0402" value="47k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="1n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="EVQ-Q2F03W"/>
-<attribute name="OC_NEWARK" value="96K9626"/>
-</part>
+<part name="R27" library="rcl" deviceset="R-EU_" device="R0402" value="47k"/>
+<part name="C17" library="rcl" deviceset="C-EU" device="C0402" value="1n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R29" library="rcl" deviceset="R-EU_" device="R0402" value="470R">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="R29" library="rcl" deviceset="R-EU_" device="R0402" value="470R"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="JP8" library="jumper" deviceset="JP1E" device="" value="LED1_PWR">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="JP8" library="jumper" deviceset="JP1E" device="" value="LED1_PWR"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="+3V5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="100n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="R401" library="rcl" deviceset="R-EU_" device="R0402" value="33R">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C403" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="4u7">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="JP1" library="jumper" deviceset="JP1E" device="" value="LED1_PWR">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="U402" library="tps62231dry" deviceset="TPS6223X_DRY_6" device="" value="TPS62237DRY">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C404" library="CAP" deviceset="CSMD0805" device="" value="1u">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="C401" library="CAP" deviceset="CSMD0805" device="" value="1u">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="C402" library="rcl" deviceset="C-EU" device="C0402" value="100n"/>
+<part name="R401" library="rcl" deviceset="R-EU_" device="R0402" value="33R"/>
+<part name="C403" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="4u7"/>
+<part name="JP1" library="jumper" deviceset="JP1E" device="" value="LED1_PWR"/>
+<part name="U402" library="tps62231dry" deviceset="TPS6223X_DRY_6" device="" value="TPS62237DRY"/>
+<part name="C404" library="CAP" deviceset="CSMD0805" device="" value="1u"/>
+<part name="C401" library="CAP" deviceset="CSMD0805" device="" value="1u"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
-<part name="L401" library="MSP-EXP430F5659" deviceset="L-NR3010" device="" value="2.2uH (NR3010T2R2M)">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="L401" library="MSP-EXP430F5659" deviceset="L-NR3010" device="" value="2.2uH (NR3010T2R2M)"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="D1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO35-7">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="D1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-RGB-CC" device="PIRANHA">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="JP3" library="microbuilder" deviceset="HEADER-1X12" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
-<part name="JP2" library="microbuilder" deviceset="HEADER-1X16" device="ROUND">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
+<part name="D2" library="SparkFun-LED" deviceset="LED-RGB-CC" device="PIRANHA"/>
+<part name="JP3" library="microbuilder" deviceset="HEADER-1X12" device=""/>
+<part name="JP2" library="microbuilder" deviceset="HEADER-1X16" device="ROUND"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_MICRO-B" device="_HALF_PTH" value="AMP FCI 10103594-0001LF"/>
 </parts>
@@ -15351,48 +15263,24 @@ Manufacturer: Hirose&lt;br&gt;
 <text x="60.96" y="-45.72" size="1.778" layer="91">GPIO Programmable</text>
 </plain>
 <instances>
-<instance part="IC4" gate="G$1" x="-104.14" y="7.62">
-<attribute name="OC_NEWARK" x="-104.14" y="7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-104.14" y="7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-104.14" y="7.62" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JTAG_CONNECTOR" gate="G$1" x="-208.28" y="-73.66">
-<attribute name="OC_NEWARK" x="-208.28" y="-73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-208.28" y="-73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-208.28" y="-73.66" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="IC4" gate="G$1" x="-104.14" y="7.62"/>
+<instance part="JTAG_CONNECTOR" gate="G$1" x="-208.28" y="-73.66"/>
 <instance part="GND1" gate="1" x="-223.52" y="-88.9"/>
 <instance part="+3V1" gate="G$1" x="-210.82" y="-68.58" smashed="yes">
 <attribute name="VALUE" x="-208.28" y="-66.04" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="-106.68" y="-48.26"/>
-<instance part="G1" gate="G$1" x="45.72" y="-20.32">
-<attribute name="OC_NEWARK" x="45.72" y="-20.32" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SW1" gate="G$1" x="55.88" y="60.96">
-<attribute name="OC_NEWARK" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="SW2" gate="G$1" x="45.72" y="-73.66" rot="R90">
-<attribute name="OC_NEWARK" x="45.72" y="-73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="45.72" y="-73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="45.72" y="-73.66" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="G1" gate="G$1" x="45.72" y="-20.32"/>
+<instance part="SW1" gate="G$1" x="55.88" y="60.96"/>
+<instance part="SW2" gate="G$1" x="45.72" y="-73.66" rot="R90"/>
 <instance part="GND3" gate="1" x="-33.02" y="48.26"/>
 <instance part="R27" gate="G$1" x="45.72" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.18" y="74.7014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="44.45" y="70.612" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="45.72" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="45.72" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="45.72" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="45.72" y="63.5" smashed="yes">
 <attribute name="NAME" x="38.608" y="62.357" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.878" y="59.817" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="45.72" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="45.72" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="45.72" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="45.72" y="50.8"/>
 <instance part="+3V4" gate="G$1" x="45.72" y="83.82" smashed="yes">
@@ -15401,23 +15289,12 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="+3V2" gate="G$1" x="-134.62" y="88.9" smashed="yes">
 <attribute name="VALUE" x="-132.08" y="91.44" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R29" gate="G$1" x="129.54" y="68.58">
-<attribute name="OC_NEWARK" x="129.54" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="129.54" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="129.54" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="R29" gate="G$1" x="129.54" y="68.58"/>
 <instance part="GND21" gate="1" x="154.94" y="60.96"/>
 <instance part="JP8" gate="A" x="116.84" y="71.12" smashed="yes">
 <attribute name="NAME" x="115.824" y="74.422" size="1.778" layer="95"/>
-<attribute name="OC_NEWARK" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="116.84" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="139.7" y="68.58" rot="R90">
-<attribute name="OC_NEWARK" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="LED3" gate="G$1" x="139.7" y="68.58" rot="R90"/>
 <instance part="+3V5" gate="G$1" x="104.14" y="76.2" smashed="yes">
 <attribute name="VALUE" x="106.68" y="78.74" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -15426,48 +15303,26 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="C402" gate="G$1" x="68.58" y="-5.08" smashed="yes">
 <attribute name="NAME" x="62.484" y="-4.699" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.214" y="-9.779" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="68.58" y="-5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="68.58" y="-5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="68.58" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R401" gate="G$1" x="53.34" y="22.86" smashed="yes">
 <attribute name="NAME" x="54.61" y="26.4414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="55.88" y="21.082" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="53.34" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="53.34" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="53.34" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C403" gate="G$1" x="76.2" y="-5.08" smashed="yes">
 <attribute name="NAME" x="77.724" y="-4.699" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.724" y="-9.779" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="76.2" y="-5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="76.2" y="-5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="76.2" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="203.2" y="-7.62" smashed="yes">
 <attribute name="NAME" x="202.184" y="-4.318" size="1.778" layer="95"/>
-<attribute name="OC_NEWARK" x="203.2" y="-7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="203.2" y="-7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="203.2" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U402" gate="&gt;NAME" x="142.24" y="-10.16">
-<attribute name="OC_NEWARK" x="142.24" y="-10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="142.24" y="-10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="142.24" y="-10.16" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="U402" gate="&gt;NAME" x="142.24" y="-10.16"/>
 <instance part="C404" gate="G$2" x="137.16" y="-20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="129.54" y="-19.685" size="1.524" layer="95"/>
 <attribute name="VALUE" x="134.62" y="-20.701" size="1.524" layer="96" rot="R180"/>
-<attribute name="OC_NEWARK" x="137.16" y="-20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="137.16" y="-20.32" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="137.16" y="-20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C401" gate="G$2" x="182.88" y="-15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="-14.605" size="1.524" layer="95"/>
 <attribute name="VALUE" x="185.42" y="-17.399" size="1.524" layer="96"/>
-<attribute name="OC_NEWARK" x="182.88" y="-15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="182.88" y="-15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="182.88" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND50" gate="1" x="137.16" y="-27.94"/>
 <instance part="GND53" gate="1" x="182.88" y="-25.4"/>
@@ -15475,42 +15330,23 @@ Manufacturer: Hirose&lt;br&gt;
 <instance part="L401" gate="G$1" x="157.48" y="5.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="160.02" y="8.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="170.18" y="3.81" size="1.778" layer="95" rot="R180"/>
-<attribute name="OC_NEWARK" x="157.48" y="5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="157.48" y="5.08" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="157.48" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="213.36" y="0" smashed="yes">
 <attribute name="VALUE" x="215.9" y="2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D1" gate="G$1" x="53.34" y="-10.16" rot="R90">
-<attribute name="OC_NEWARK" x="53.34" y="-10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="53.34" y="-10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="53.34" y="-10.16" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="D1" gate="G$1" x="53.34" y="-10.16" rot="R90"/>
 <instance part="GND4" gate="1" x="35.56" y="-30.48"/>
 <instance part="+3V6" gate="G$1" x="-17.78" y="7.62" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="10.16" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="93.98" y="-76.2"/>
-<instance part="D2" gate="G$1" x="78.74" y="-71.12">
-<attribute name="OC_NEWARK" x="78.74" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="78.74" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="78.74" y="-71.12" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP3" gate="G$1" x="-91.44" y="35.56">
-<attribute name="OC_NEWARK" x="-91.44" y="35.56" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-91.44" y="35.56" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-91.44" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP2" gate="A" x="-73.66" y="40.64" rot="R180">
-<attribute name="OC_NEWARK" x="-73.66" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-73.66" y="40.64" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-73.66" y="40.64" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="D2" gate="G$1" x="78.74" y="-71.12"/>
+<instance part="JP3" gate="G$1" x="-91.44" y="35.56"/>
+<instance part="JP2" gate="A" x="-73.66" y="40.64" rot="R180"/>
 <instance part="+3V7" gate="G$1" x="-33.02" y="68.58" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="71.12" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="27.94" y="5.08" rot="R180"/>
+<instance part="J1" gate="G$1" x="33.02" y="5.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15590,12 +15426,15 @@ Manufacturer: Hirose&lt;br&gt;
 <pinref part="GND56" gate="1" pin="GND"/>
 <wire x1="68.58" y1="20.32" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+<junction x="60.96" y="22.86"/>
 <pinref part="R401" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="33.02" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="10.16" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="22.86" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <junction x="63.5" y="22.86"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND64" gate="1" pin="GND"/>
@@ -15955,7 +15794,7 @@ Manufacturer: Hirose&lt;br&gt;
 <wire x1="76.2" y1="0" x2="76.2" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="76.2" y="0"/>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
-<wire x1="53.34" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U402" gate="&gt;NAME" pin="VIN"/>
