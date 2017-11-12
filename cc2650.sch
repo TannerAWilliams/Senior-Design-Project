@@ -7809,7 +7809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="27.94" y="17.78" size="1.778" layer="91">USB Conenctor</text>
+<text x="22.86" y="25.4" size="1.778" layer="91">USB Conenctor</text>
 <text x="36.322" y="86.106" size="2.54" layer="95">RESET</text>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="90.17" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="35.56" y1="90.17" x2="87.63" y2="90.17" width="0.1524" layer="95" style="shortdash"/>
@@ -8047,22 +8047,14 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <pinref part="GND56" gate="1" pin="GND"/>
 <wire x1="68.58" y1="20.32" x2="68.58" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
-<junction x="60.96" y="22.86"/>
+<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="22.86" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <junction x="63.5" y="22.86"/>
-<wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="58.42" y="22.86"/>
 <junction x="68.58" y="22.86"/>
 <pinref part="J401" gate="G$1" pin="GND"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="22.86" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<junction x="43.18" y="10.16"/>
 </segment>
 <segment>
 <pinref part="GND64" gate="1" pin="GND"/>
@@ -8478,8 +8470,6 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <junction x="228.6" y="0"/>
 <label x="228.6" y="10.16" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="VABT" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="50.8" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
@@ -8533,6 +8523,14 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="-93.98" y1="45.72" x2="-121.92" y2="45.72" width="0.1524" layer="91"/>
 <label x="-121.92" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="J401" gate="G$1" pin="SHIELD1"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
