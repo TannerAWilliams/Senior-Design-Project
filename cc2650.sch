@@ -7805,6 +7805,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="ZX62R-B-5P(30)"/>
 <attribute name="OC_NEWARK" value="84Y6712"/>
 </part>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7832,8 +7833,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="127" y1="-92.71" x2="127" y2="-41.91" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="17.78" y1="-92.71" x2="127" y2="-92.71" width="0.1524" layer="95" style="shortdash"/>
 <text x="60.96" y="-45.72" size="1.778" layer="91">GPIO Programmable</text>
-<text x="-142.24" y="63.5" size="1.778" layer="91">Remove jumper from 4&amp;5 to measure current.
-Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
+<text x="-142.24" y="71.12" size="1.778" layer="91">Add jumper from 3 &amp; 4 to use battery.
+add jumper from 4 &amp; 5 to use USB.</text>
+<text x="-142.24" y="66.04" size="1.778" layer="91">Add jumper from 6 &amp; 7 to enable power led.</text>
 </plain>
 <instances>
 <instance part="IC4" gate="G$1" x="-104.14" y="7.62">
@@ -7958,12 +7960,13 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <attribute name="MF" x="154.94" y="-7.62" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="154.94" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+2" gate="VCC" x="-129.54" y="45.72"/>
+<instance part="P+2" gate="VCC" x="-134.62" y="48.26"/>
 <instance part="J401" gate="G$1" x="33.02" y="5.08" rot="R180">
 <attribute name="OC_NEWARK" x="33.02" y="5.08" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="33.02" y="5.08" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="33.02" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="GND6" gate="1" x="-33.02" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -8019,8 +8022,13 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-33.02" y1="53.34" x2="-33.02" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="13"/>
-<wire x1="-71.12" y1="53.34" x2="-33.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="53.34" x2="-63.5" y2="53.34" width="0.1524" layer="91"/>
 <label x="-48.26" y="53.34" size="1.778" layer="95"/>
+<pinref part="JP2" gate="A" pin="12"/>
+<wire x1="-63.5" y1="53.34" x2="-33.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="50.8" x2="-63.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="50.8" x2="-63.5" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-63.5" y="53.34"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -8098,6 +8106,12 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="BAT" gate="G$1" pin="-"/>
 <wire x1="228.6" y1="-22.86" x2="228.6" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-33.02" y1="20.32" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="-71.12" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -8372,9 +8386,9 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <junction x="162.56" y="22.86"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="4"/>
-<wire x1="-93.98" y1="43.18" x2="-121.92" y2="43.18" width="0.1524" layer="91"/>
-<label x="-121.92" y="43.18" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="5"/>
+<wire x1="-93.98" y1="40.64" x2="-121.92" y2="40.64" width="0.1524" layer="91"/>
+<label x="-121.92" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO11_MOSI" class="0">
@@ -8417,10 +8431,15 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <net name="VCC" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="15"/>
-<wire x1="-71.12" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
 <label x="-48.26" y="58.42" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="58.42" x2="-33.02" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="58.42" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<pinref part="JP2" gate="A" pin="14"/>
+<wire x1="-71.12" y1="55.88" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="55.88" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-63.5" y="58.42"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="5.08" x2="-17.78" y2="-7.62" width="0.1524" layer="91"/>
@@ -8446,16 +8465,17 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="5"/>
-<wire x1="-93.98" y1="40.64" x2="-104.14" y2="40.64" width="0.1524" layer="91"/>
-<label x="-121.92" y="40.64" size="1.778" layer="95"/>
-<wire x1="-104.14" y1="40.64" x2="-129.54" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="40.64" x2="-129.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="43.18" x2="-134.62" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
+<wire x1="-93.98" y1="43.18" x2="-127" y2="43.18" width="0.1524" layer="91"/>
+<label x="-121.92" y="43.18" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
-<wire x1="-93.98" y1="38.1" x2="-104.14" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="38.1" x2="-104.14" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-104.14" y="40.64"/>
+<wire x1="-127" y1="43.18" x2="-134.62" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="38.1" x2="-127" y2="38.1" width="0.1524" layer="91"/>
+<label x="-121.92" y="38.1" size="1.778" layer="95"/>
+<wire x1="-127" y1="38.1" x2="-127" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-127" y="43.18"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -8471,9 +8491,9 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <label x="228.6" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="-93.98" y1="50.8" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
-<label x="-121.92" y="50.8" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="-93.98" y1="45.72" x2="-121.92" y2="45.72" width="0.1524" layer="91"/>
+<label x="-121.92" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -8520,9 +8540,9 @@ Remove jumper from 6 &amp; 7 to disable PWR LED.</text>
 <junction x="149.86" y="-7.62"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="-93.98" y1="45.72" x2="-121.92" y2="45.72" width="0.1524" layer="91"/>
-<label x="-121.92" y="45.72" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="-93.98" y1="50.8" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
+<label x="-121.92" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
