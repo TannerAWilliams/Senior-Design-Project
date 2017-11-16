@@ -5839,23 +5839,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <wire x1="-71.12" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NRESET" class="0">
-<segment>
-<pinref part="JTAG_CONNECTOR" gate="G$1" pin="10"/>
-<wire x1="-185.42" y1="-83.82" x2="-162.56" y2="-83.82" width="0.1524" layer="91"/>
-<label x="-177.8" y="-83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="NRESET"/>
-<wire x1="-124.46" y1="-22.86" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-124.46" y="-22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="A" pin="16"/>
-<wire x1="-71.12" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
-<label x="-48.26" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="JTAG_TMS" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="JTAG_TMS"/>
@@ -6152,9 +6135,9 @@ add jumper from 4 &amp; 5 to use USB.</text>
 </segment>
 <segment>
 <wire x1="-210.82" y1="-71.12" x2="-210.82" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="JTAG_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="-210.82" y1="-73.66" x2="-208.28" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="JTAG_CONNECTOR" gate="G$1" pin="1"/>
+<wire x1="-208.28" y1="-73.66" x2="-210.82" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-134.62" y1="43.18" x2="-134.62" y2="45.72" width="0.1524" layer="91"/>
@@ -6168,13 +6151,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <label x="-121.92" y="38.1" size="1.778" layer="95"/>
 <wire x1="-127" y1="38.1" x2="-127" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-127" y="43.18"/>
-</segment>
-</net>
-<net name="VBAT" class="0">
-<segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="-93.98" y1="45.72" x2="-121.92" y2="45.72" width="0.1524" layer="91"/>
-<label x="-121.92" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
