@@ -8375,11 +8375,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cc2650.pdf"&gt; Datasheet &
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/1">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="HSME-C191"/>
-<attribute name="OC_NEWARK" value="05M0345"/>
-</part>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="U402" library="tps62231dry" deviceset="TPS6223X_DRY_6" device="" value="TPS62233DRY">
 <attribute name="MF" value=""/>
@@ -8447,6 +8442,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/cc2650.pdf"&gt; Datasheet &
 <part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="100n"/>
 <part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="1n"/>
 <part name="IC1" library="CC2650F128RGZT" deviceset="CC2650F128RGZT" device=""/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8501,11 +8497,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <instance part="GND3" gate="1" x="-33.02" y="48.26"/>
 <instance part="GND7" gate="1" x="45.72" y="50.8"/>
 <instance part="GND21" gate="1" x="154.94" y="60.96"/>
-<instance part="LED3" gate="G$1" x="139.7" y="68.58" rot="R90">
-<attribute name="OC_NEWARK" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="139.7" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND64" gate="1" x="76.2" y="-15.24"/>
 <instance part="U402" gate="&gt;NAME" x="139.7" y="7.62">
 <attribute name="OC_NEWARK" x="139.7" y="7.62" size="1.778" layer="96" display="off"/>
@@ -8575,6 +8566,7 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <instance part="C7" gate="G$1" x="68.58" y="-5.08"/>
 <instance part="C10" gate="G$1" x="45.72" y="63.5"/>
 <instance part="IC1" gate="G$1" x="-193.04" y="15.24"/>
+<instance part="LED1" gate="G$1" x="139.7" y="68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8645,12 +8637,11 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <wire x1="144.78" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="68.58" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<junction x="144.78" y="68.58"/>
 <junction x="154.94" y="63.5"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="GND64" gate="1" pin="GND"/>
@@ -8969,9 +8960,8 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <net name="N$32" class="0">
 <segment>
 <wire x1="137.16" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<junction x="137.16" y="68.58"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$14" class="0">
