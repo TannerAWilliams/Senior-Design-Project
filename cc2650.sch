@@ -7566,6 +7566,89 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="OPT3001">
+<packages>
+<package name="DNP0006A">
+<smd name="1" x="-0.95" y="0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="2" x="-0.95" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="3" x="-0.95" y="-0.655" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="5" x="0.95" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="6" x="0.95" y="0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
+<smd name="7" x="0" y="0" dx="0.65" dy="1.35" layer="1" cream="no"/>
+<wire x1="-1.1176" y1="-1.143" x2="-0.9144" y2="-1.143" width="0.1778" layer="21"/>
+<wire x1="0.9144" y1="-1.143" x2="1.1176" y2="-1.143" width="0.1778" layer="21"/>
+<wire x1="0.9144" y1="1.143" x2="1.1176" y2="1.143" width="0.1778" layer="21"/>
+<wire x1="-1.1176" y1="1.143" x2="-0.127" y2="1.143" width="0.1778" layer="21"/>
+<text x="-0.9906" y="1.8796" size="1.27" layer="21" ratio="6" rot="SR0">Designator256</text>
+<wire x1="-1.0414" y1="1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
+<wire x1="-1.0414" y1="-1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
+<wire x1="-0.3556" y1="0.635" x2="-0.762" y2="0.635" width="0.1016" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.635" x2="-0.3556" y2="0.635" width="0.1016" layer="51" curve="-180"/>
+<text x="-0.7366" y="-0.8382" size="1.27" layer="51" ratio="6" rot="SR0">.Designator</text>
+<polygon width="0.0254" layer="31">
+<vertex x="0.31" y="-0.625"/>
+<vertex x="0.31" y="0.625"/>
+<vertex x="-0.31" y="0.625"/>
+<vertex x="-0.31" y="-0.625"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="OPT3001DNP">
+<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="ADDR" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="INT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SDA" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="PAD" x="17.78" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<text x="-4.7244" y="1.4986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OPT3001DNPR" prefix="U">
+<gates>
+<gate name="A" symbol="OPT3001DNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DNP0006A">
+<connects>
+<connect gate="A" pin="ADDR" pad="2"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="INT" pad="5"/>
+<connect gate="A" pin="PAD" pad="7"/>
+<connect gate="A" pin="SCL" pad="4"/>
+<connect gate="A" pin="SDA" pad="6"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="APPLICATION_BUILDNUMBER" value="*" constant="no"/>
+<attribute name="COMPTYPE" value="IC" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MOUNTTYPE" value="SMT" constant="no"/>
+<attribute name="PACKAGEREFERENCE" value="DNP0006A" constant="no"/>
+<attribute name="PARTNUMBER" value="OPT3001DNP" constant="no"/>
+<attribute name="PIN_COUNT" value="7" constant="no"/>
+<attribute name="REFDES" value="RefDes" constant="no"/>
+<attribute name="ROHS" value="Y" constant="no"/>
+<attribute name="TYPE" value="TYPE" constant="no"/>
+<attribute name="VALUE" value="Value" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7709,6 +7792,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="ERA-2AEB471X"/>
 <attribute name="OC_NEWARK" value="08N2086"/>
 </part>
+<part name="U1" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value"/>
 </parts>
 <sheets>
 <sheet>
@@ -7870,6 +7954,7 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <attribute name="MF" x="129.54" y="-66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="129.54" y="-66.04" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="U1" gate="A" x="-76.2" y="-88.9"/>
 </instances>
 <busses>
 </busses>
