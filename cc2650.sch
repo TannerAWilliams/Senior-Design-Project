@@ -6813,160 +6813,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-RGB-THRU">
-<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
-&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
-<pad name="2" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="1" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="3" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="4" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
-</package>
-<package name="LED_PIRANHA_5MM">
-<description>&lt;h3&gt;LED 5mm PTH - Piranha&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Pin pitch: 1.5mm, 5.06 mm&lt;/li&gt;
-&lt;li&gt;Area:5mm x 5mm &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://cdn.sparkfun.com/datasheets/Components/LED/YSRGB7A5BSW25.pdf"&gt;YSRGB7A5BSW25&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED Pirahana&lt;/li&gt;</description>
-<wire x1="-3.81" y1="-3.81" x2="3.69" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="3.69" y1="-3.81" x2="3.69" y2="3.69" width="0.127" layer="21"/>
-<wire x1="3.69" y1="3.69" x2="-2.81" y2="3.69" width="0.127" layer="21"/>
-<wire x1="-2.81" y1="3.69" x2="-3.81" y2="2.69" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.69" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<pad name="-" x="-2.684" y="-2.684" drill="0.9"/>
-<pad name="R" x="2.579" y="-2.696" drill="0.9"/>
-<pad name="B" x="-2.688" y="2.574" drill="0.9"/>
-<pad name="G" x="2.575" y="2.562" drill="0.9"/>
-<text x="-1.65" y="2.323" size="0.6096" layer="25" font="vector" ratio="20">B</text>
-<text x="0.962" y="2.298" size="0.6096" layer="25" font="vector" ratio="20">G</text>
-<text x="1.037" y="-3.131" size="0.6096" layer="25" font="vector" ratio="20">R</text>
-<text x="-1.524" y="-3.031" size="0.6096" layer="25" font="vector" ratio="20">-</text>
-<text x="0" y="4.064" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.81" y="3.4925" radius="0.254" width="0" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LED-RGB-CC">
-<description>&lt;h3&gt;RGB LED - Common Cathode&lt;/h3&gt;
-&lt;p&gt;4 pin Common Cathode RGB LED&lt;/p&gt;</description>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="-7.62" y="5.3975" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-5.3975" size="1.778" layer="95" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="GRN" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="BLU" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="C" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="RED" x="-10.16" y="2.54" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED-RGB-CC" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;LED-RGB Common Cathode&lt;/h3&gt;
-
-&lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
-&lt;ul&gt;&lt;li&gt; LED RGB-THRU&lt;/li&gt;
-&lt;li&gt; LED_PIRANHA_5MM&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/9264]”&gt;RGB Diffused Common Cathode- Diffuse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/105]”&gt;RGB Diffused Common Cathode - Clear&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/11679]”&gt;LED-RGB 5mm Square (Piranha)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED-RGB-CC" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="DIFFUSE" package="LED-RGB-THRU">
-<connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09434"/>
-<attribute name="VALUE" value="DIFFUSE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CLEAR" package="LED-RGB-THRU">
-<connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08418"/>
-<attribute name="VALUE" value="CLEAR" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PIRANHA" package="LED_PIRANHA_5MM">
-<connects>
-<connect gate="G$1" pin="BLU" pad="B"/>
-<connect gate="G$1" pin="C" pad="-"/>
-<connect gate="G$1" pin="GRN" pad="G"/>
-<connect gate="G$1" pin="RED" pad="R"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="SF_ID" value="COM-11679" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="microbuilder">
 <description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
 
@@ -8323,12 +8169,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="NR3010T2R2M"/>
 <attribute name="OC_NEWARK" value="87K4752"/>
 </part>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-RGB-CC" device="PIRANHA">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="CLMVB-FKA-CFHEHLCBB7A363"/>
-<attribute name="OC_NEWARK" value="11X6434"/>
-</part>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X12" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -8376,11 +8216,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0402" value="1k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="ERA-2AEB471X"/>
-<attribute name="OC_NEWARK" value="08N2086"/>
-</part>
 <part name="U1" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value"/>
 <part name="X3" library="microbuilder" deviceset="USB" device="_MICRO_20329_V2" value="microUSB"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8463,12 +8298,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <attribute name="MF" x="154.94" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="154.94" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND5" gate="1" x="139.7" y="-78.74"/>
-<instance part="D2" gate="G$1" x="104.14" y="-66.04">
-<attribute name="OC_NEWARK" x="104.14" y="-66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="104.14" y="-66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="104.14" y="-66.04" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="JP3" gate="G$1" x="-91.44" y="35.56">
 <attribute name="OC_NEWARK" x="-91.44" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-91.44" y="35.56" size="1.778" layer="96" display="off"/>
@@ -8518,11 +8347,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <instance part="P+2" gate="VCC" x="-134.62" y="48.26"/>
 <instance part="GND6" gate="1" x="-33.02" y="17.78"/>
 <instance part="GND8" gate="1" x="66.04" y="-68.58"/>
-<instance part="R5" gate="G$1" x="129.54" y="-66.04">
-<attribute name="OC_NEWARK" x="129.54" y="-66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="129.54" y="-66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="129.54" y="-66.04" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U1" gate="A" x="-76.2" y="-88.9"/>
 <instance part="X3" gate="G$1" x="48.26" y="0"/>
 <instance part="GND4" gate="1" x="66.04" y="-7.62"/>
@@ -8634,12 +8458,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <junction x="180.34" y="0"/>
 </segment>
 <segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="139.7" y1="-66.04" x2="139.7" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="-66.04" x2="139.7" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-33.02" y1="20.32" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
@@ -8735,11 +8553,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <wire x1="-93.98" y1="27.94" x2="-121.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="-121.92" y="27.94" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="BLU"/>
-<wire x1="93.98" y1="-66.04" x2="81.28" y2="-66.04" width="0.1524" layer="91"/>
-<label x="81.28" y="-66.04" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="DIO6_TDI" class="0">
 <segment>
@@ -8758,11 +8571,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="JP3" gate="G$1" pin="9"/>
 <wire x1="-93.98" y1="30.48" x2="-121.92" y2="30.48" width="0.1524" layer="91"/>
 <label x="-121.92" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="GRN"/>
-<wire x1="93.98" y1="-68.58" x2="81.28" y2="-68.58" width="0.1524" layer="91"/>
-<label x="81.28" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO7" class="0">
@@ -8869,11 +8677,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="JP3" gate="G$1" pin="11"/>
 <wire x1="-93.98" y1="25.4" x2="-121.92" y2="25.4" width="0.1524" layer="91"/>
 <label x="-121.92" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="D2" gate="G$1" pin="RED"/>
-<wire x1="93.98" y1="-63.5" x2="81.28" y2="-63.5" width="0.1524" layer="91"/>
-<label x="81.28" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO9_CS" class="0">
@@ -9097,13 +8900,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="X3" gate="G$1" pin="VBUS"/>
 <wire x1="58.42" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 <label x="66.04" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="-66.04" x2="124.46" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
