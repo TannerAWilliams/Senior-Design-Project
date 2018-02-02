@@ -7628,6 +7628,26 @@ Source: www.kingbright.com</description>
 <part name="U1" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="USB101" library="MSP_Connectors" deviceset="USB-MICRO" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0603" value="10k">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
+<attribute name="OC_NEWARK" value="68R0147"/>
+</part>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="10k">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="RC0603JR-07100KL"/>
+<attribute name="OC_NEWARK" value="68R0147"/>
+</part>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="100n">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="C0805C105K5RACTU"/>
+<attribute name="OC_NEWARK" value="05AC8016"/>
+</part>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7658,6 +7678,12 @@ Source: www.kingbright.com</description>
 <text x="-142.24" y="71.12" size="1.778" layer="91">Add jumper from 3 &amp; 4 to use battery.
 add jumper from 4 &amp; 5 to use USB.</text>
 <text x="-142.24" y="66.04" size="1.778" layer="91">Add jumper from 6 &amp; 7 to enable power led.</text>
+<wire x1="-149.86" y1="-72.39" x2="-17.78" y2="-72.39" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-149.86" y1="-138.43" x2="-149.86" y2="-72.39" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-149.86" y1="-138.43" x2="-17.78" y2="-138.43" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-17.78" y1="-138.43" x2="-17.78" y2="-72.39" width="0.1524" layer="95" style="shortdash"/>
+<text x="-116.84" y="-76.2" size="1.778" layer="91">Light Sensor</text>
+<text x="-96.52" y="-99.06" size="1.778" layer="91">Possibly disconnect from header pins.</text>
 </plain>
 <instances>
 <instance part="IC4" gate="G$1" x="-104.14" y="7.62">
@@ -7756,12 +7782,32 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <instance part="P+2" gate="VCC" x="-134.62" y="48.26"/>
 <instance part="GND6" gate="1" x="-33.02" y="17.78"/>
 <instance part="GND8" gate="1" x="66.04" y="-68.58"/>
-<instance part="U1" gate="A" x="-76.2" y="-88.9"/>
+<instance part="U1" gate="A" x="-99.06" y="-114.3"/>
 <instance part="GND4" gate="1" x="55.88" y="2.54"/>
 <instance part="USB101" gate="G$1" x="43.18" y="0" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.244" y="13.208" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="51.562" y="-14.478" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
+<instance part="GND5" gate="1" x="-71.12" y="-127"/>
+<instance part="P+6" gate="VCC" x="-116.84" y="-83.82"/>
+<instance part="R3" gate="G$1" x="-50.8" y="-101.6" rot="R90">
+<attribute name="OC_NEWARK" x="-50.8" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-50.8" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-50.8" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="P+7" gate="VCC" x="-50.8" y="-91.44"/>
+<instance part="P+8" gate="VCC" x="-50.8" y="-91.44"/>
+<instance part="R5" gate="G$1" x="-40.64" y="-101.6" rot="R90">
+<attribute name="OC_NEWARK" x="-40.64" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-40.64" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-40.64" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="-132.08" y="-96.52">
+<attribute name="OC_NEWARK" x="-132.08" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-132.08" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-132.08" y="-96.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND9" gate="1" x="-132.08" y="-106.68"/>
 </instances>
 <busses>
 </busses>
@@ -7890,6 +7936,22 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="USB101" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="48.26" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="-71.12" y1="-124.46" x2="-71.12" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="GND"/>
+<wire x1="-71.12" y1="-121.92" x2="-76.2" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-121.92" x2="-81.28" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-121.92" x2="-76.2" y2="-124.46" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-121.92"/>
+<pinref part="U1" gate="A" pin="PAD"/>
+<wire x1="-76.2" y1="-124.46" x2="-81.28" y2="-124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="-101.6" x2="-132.08" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -8050,6 +8112,12 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <junction x="38.1" y="-63.5"/>
 <label x="27.94" y="-63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="SCL"/>
+<label x="-73.66" y="-106.68" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="-106.68" x2="-81.28" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIO3" class="0">
 <segment>
@@ -8063,6 +8131,13 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="JP3" gate="G$1" pin="8"/>
 <wire x1="-93.98" y1="33.02" x2="-121.92" y2="33.02" width="0.1524" layer="91"/>
 <label x="-121.92" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-106.68" x2="-40.64" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SDA"/>
+<wire x1="-40.64" y1="-109.22" x2="-81.28" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-73.66" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO10_CLK" class="0">
@@ -8264,6 +8339,31 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <label x="-121.92" y="38.1" size="1.778" layer="95"/>
 <wire x1="-127" y1="38.1" x2="-127" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-127" y="43.18"/>
+</segment>
+<segment>
+<pinref part="P+7" gate="VCC" pin="VCC"/>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="-93.98" x2="-50.8" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-93.98"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="-96.52" x2="-40.64" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-96.52"/>
+<wire x1="-40.64" y1="-96.52" x2="-30.48" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-40.64" y="-96.52"/>
+<wire x1="-30.48" y1="-96.52" x2="-30.48" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="ADDR"/>
+<wire x1="-30.48" y1="-114.3" x2="-81.28" y2="-114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="U1" gate="A" pin="VDD"/>
+<wire x1="-116.84" y1="-86.36" x2="-116.84" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="-88.9" x2="-116.84" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-93.98" x2="-132.08" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-88.9" x2="-116.84" y2="-88.9" width="0.1524" layer="91"/>
+<junction x="-116.84" y="-88.9"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
