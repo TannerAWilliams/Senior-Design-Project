@@ -8112,12 +8112,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <junction x="38.1" y="-63.5"/>
 <label x="27.94" y="-63.5" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U1" gate="A" pin="SCL"/>
-<label x="-73.66" y="-106.68" size="1.778" layer="95"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="-106.68" x2="-81.28" y2="-106.68" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="DIO3" class="0">
 <segment>
@@ -8131,13 +8125,6 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="JP3" gate="G$1" pin="8"/>
 <wire x1="-93.98" y1="33.02" x2="-121.92" y2="33.02" width="0.1524" layer="91"/>
 <label x="-121.92" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="-106.68" x2="-40.64" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="SDA"/>
-<wire x1="-40.64" y1="-109.22" x2="-81.28" y2="-109.22" width="0.1524" layer="91"/>
-<label x="-73.66" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO10_CLK" class="0">
@@ -8202,6 +8189,12 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <wire x1="-71.12" y1="43.18" x2="-48.26" y2="43.18" width="0.1524" layer="91"/>
 <label x="-48.26" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="SCL"/>
+<label x="-73.66" y="-106.68" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="-106.68" x2="-81.28" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIO14" class="0">
 <segment>
@@ -8213,6 +8206,13 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <pinref part="JP2" gate="A" pin="8"/>
 <wire x1="-71.12" y1="40.64" x2="-48.26" y2="40.64" width="0.1524" layer="91"/>
 <label x="-48.26" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-106.68" x2="-40.64" y2="-109.22" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="SDA"/>
+<wire x1="-40.64" y1="-109.22" x2="-81.28" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-73.66" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$32" class="0">
