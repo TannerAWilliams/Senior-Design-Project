@@ -7515,6 +7515,85 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TPS73133DBVR">
+<description>&lt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X145-5N">
+<description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS73133DBVR">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="IN" x="0" y="0" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="EN" x="0" y="-5.08" length="middle" direction="in"/>
+<pin name="NR/FB" x="27.94" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="OUT" x="27.94" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS73133DBVR" prefix="IC">
+<description>&lt;b&gt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS73133DBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NR/FB" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS73133DBVR" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="6613970" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7648,6 +7727,7 @@ Source: www.kingbright.com</description>
 <attribute name="OC_NEWARK" value="05AC8016"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC1" library="TPS73133DBVR" deviceset="TPS73133DBVR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7808,6 +7888,7 @@ add jumper from 4 &amp; 5 to use USB.</text>
 <attribute name="MPN" x="-132.08" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="-132.08" y="-106.68"/>
+<instance part="IC1" gate="G$1" x="139.7" y="-22.86"/>
 </instances>
 <busses>
 </busses>

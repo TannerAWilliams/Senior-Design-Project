@@ -549,6 +549,37 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package>
 </packages>
 </library>
+<library name="TPS73133DBVR">
+<description>&lt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X145-5N">
+<description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -878,6 +909,17 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="10.16" y="4.445" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C0805C105K5RACTU" x="10.16" y="4.445" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="05AC8016" x="10.16" y="4.445" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC1" library="TPS73133DBVR" package="SOT95P280X145-5N" value="TPS73133DBVR" x="-1.27" y="-8.89">
+<attribute name="3D_PACKAGE" value="" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_NUMBER" value="" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS73133DBVR" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OTHER_PART_NUMBER" value="" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="6613970" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER_NAME" value="RS" x="-1.27" y="-8.89" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
