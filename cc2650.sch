@@ -7559,6 +7559,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="JP1" library="jumper" deviceset="JP1M" device="" value="LED1"/>
+<part name="U$2" library="MSP-EXP432" deviceset="MOUNTHOLE_125MIL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8229,6 +8230,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <instance part="R14" gate="G$1" x="93.98" y="3.81"/>
 <instance part="R15" gate="G$1" x="93.98" y="8.89"/>
 <instance part="C1" gate="G$1" x="-93.98" y="-43.18"/>
+<instance part="U$2" gate="A" x="45.72" y="-60.96"/>
 </instances>
 <busses>
 </busses>
