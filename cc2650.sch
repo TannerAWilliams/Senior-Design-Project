@@ -7281,33 +7281,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <text x="-3.2544" y="-2.575" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 <circle x="-1.524" y="1.016" radius="0.254" width="0.127" layer="21"/>
 </package>
-<package name="MOUNTHOLE_125MIL">
-<hole x="0" y="0" drill="3.175"/>
-<polygon width="0.2032" layer="2" pour="cutout">
-<vertex x="-2.54" y="2.54"/>
-<vertex x="2.54" y="2.54"/>
-<vertex x="2.54" y="-2.54"/>
-<vertex x="-2.54" y="-2.54"/>
-</polygon>
-<polygon width="0.2032" layer="1" pour="cutout">
-<vertex x="-2.54" y="2.54"/>
-<vertex x="2.54" y="2.54"/>
-<vertex x="2.54" y="-2.54"/>
-<vertex x="-2.54" y="-2.54"/>
-</polygon>
-<polygon width="0.2032" layer="15" pour="cutout">
-<vertex x="-2.54" y="2.54"/>
-<vertex x="2.54" y="2.54"/>
-<vertex x="2.54" y="-2.54"/>
-<vertex x="-2.54" y="-2.54"/>
-</polygon>
-<polygon width="0.2032" layer="16" pour="cutout">
-<vertex x="-2.54" y="2.54"/>
-<vertex x="2.54" y="2.54"/>
-<vertex x="2.54" y="-2.54"/>
-<vertex x="-2.54" y="-2.54"/>
-</polygon>
-</package>
 </packages>
 <symbols>
 <symbol name="RGB_LED">
@@ -7363,16 +7336,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <text x="-2.286" y="2.286" size="0.762" layer="94">Green</text>
 <text x="-2.286" y="-2.794" size="0.762" layer="94">Blue</text>
 </symbol>
-<symbol name="MOUNTHOLE_125MIL">
-<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
-<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
-<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="EVERLIGHT_19-337" prefix="LED">
@@ -7389,18 +7352,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <connect gate="G$1" pin="RA" pad="5"/>
 <connect gate="G$1" pin="RC" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOUNTHOLE_125MIL">
-<gates>
-<gate name="A" symbol="MOUNTHOLE_125MIL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOUNTHOLE_125MIL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7537,8 +7488,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="JP5" library="jumper" deviceset="JP1M" device="" value="LED2_GREEN"/>
 <part name="JP6" library="jumper" deviceset="JP1M" device="" value="LED2_BLUE"/>
 <part name="LED5" library="MSP-EXP432" deviceset="EVERLIGHT_19-337" device=""/>
-<part name="U$6" library="MSP-EXP432" deviceset="MOUNTHOLE_125MIL" device=""/>
-<part name="U$7" library="MSP-EXP432" deviceset="MOUNTHOLE_125MIL" device=""/>
 <part name="U2" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -7559,7 +7508,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="JP1" library="jumper" deviceset="JP1M" device="" value="LED1"/>
-<part name="U$2" library="MSP-EXP432" deviceset="MOUNTHOLE_125MIL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8216,8 +8164,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="VALUE" x="50.292" y="-3.683" size="1.778" layer="96"/>
 </instance>
 <instance part="LED5" gate="G$1" x="109.22" y="3.81"/>
-<instance part="U$6" gate="A" x="45.72" y="-50.8"/>
-<instance part="U$7" gate="A" x="80.01" y="-50.8"/>
 <instance part="U2" gate="A" x="-60.96" y="-43.18"/>
 <instance part="GND8" gate="1" x="-33.02" y="-55.88"/>
 <instance part="P+9" gate="VCC" x="-78.74" y="-25.4"/>
@@ -8230,7 +8176,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <instance part="R14" gate="G$1" x="93.98" y="3.81"/>
 <instance part="R15" gate="G$1" x="93.98" y="8.89"/>
 <instance part="C1" gate="G$1" x="-93.98" y="-43.18"/>
-<instance part="U$2" gate="A" x="45.72" y="-60.96"/>
 </instances>
 <busses>
 </busses>
@@ -8381,7 +8326,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="DIO4" class="0">
+<net name="DIO14" class="0">
 <segment>
 <pinref part="SW3" gate="G$1" pin="S"/>
 <wire x1="-88.9" y1="30.48" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
