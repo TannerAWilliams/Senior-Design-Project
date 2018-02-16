@@ -3460,58 +3460,6 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
-<package name="CR1220-SMD">
-<wire x1="-9.84" y1="-1.64" x2="-6.66" y2="-1.64" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="-1.64" x2="-6.66" y2="-3.672" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="-3.672" x2="-3.826" y2="-6.66" width="0.127" layer="21"/>
-<wire x1="-3.826" y1="-6.66" x2="3.98" y2="-6.66" width="0.127" layer="21"/>
-<wire x1="3.98" y1="-6.66" x2="6.66" y2="-3.826" width="0.127" layer="21"/>
-<wire x1="6.66" y1="-3.826" x2="6.66" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="6.66" y1="-1.54" x2="9.84" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="9.84" y1="-1.54" x2="9.84" y2="1.64" width="0.127" layer="21"/>
-<wire x1="9.84" y1="1.64" x2="6.66" y2="1.64" width="0.127" layer="21"/>
-<wire x1="6.66" y1="1.64" x2="6.66" y2="6.652" width="0.127" layer="21"/>
-<wire x1="6.66" y1="6.652" x2="5.842" y2="6.652" width="0.127" layer="21"/>
-<wire x1="5.842" y1="6.652" x2="3.702" y2="4.404" width="0.127" layer="21"/>
-<wire x1="3.702" y1="4.404" x2="-3.048" y2="4.404" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="4.404" x2="-5.334" y2="6.652" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="6.652" x2="-6.66" y2="6.652" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="6.652" x2="-6.66" y2="1.64" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="1.64" x2="-9.84" y2="1.64" width="0.127" layer="21"/>
-<wire x1="-9.84" y1="1.64" x2="-9.84" y2="-1.64" width="0.127" layer="21"/>
-<circle x="-8.254" y="0" radius="0.9158" width="0.127" layer="21"/>
-<circle x="8.4" y="0.154" radius="0.9158" width="0.127" layer="21"/>
-<smd name="-" x="0" y="0" dx="3.9" dy="3.9" layer="1"/>
-<smd name="+$1" x="-8.2" y="0" dx="3.2" dy="3.2" layer="1"/>
-<smd name="+$2" x="8.2" y="0" dx="3.2" dy="3.2" layer="1"/>
-<text x="-3.556" y="5.602" size="1.6764" layer="25" font="vector">&gt;NAME</text>
-<text x="-4.318" y="-4.55" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-</package>
-<package name="CR1220-THM">
-<wire x1="-7.554" y1="-1.64" x2="-6.66" y2="-1.64" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="-1.64" x2="-6.66" y2="-3.672" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="-3.672" x2="-3.826" y2="-6.66" width="0.127" layer="21"/>
-<wire x1="-3.826" y1="-6.66" x2="3.98" y2="-6.66" width="0.127" layer="21"/>
-<wire x1="3.98" y1="-6.66" x2="6.66" y2="-3.826" width="0.127" layer="21"/>
-<wire x1="6.66" y1="-3.826" x2="6.66" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="6.66" y1="-1.54" x2="7.554" y2="-1.54" width="0.127" layer="21"/>
-<wire x1="7.554" y1="-1.54" x2="7.554" y2="1.64" width="0.127" layer="21"/>
-<wire x1="7.554" y1="1.64" x2="6.66" y2="1.64" width="0.127" layer="21"/>
-<wire x1="6.66" y1="1.64" x2="6.66" y2="5.636" width="0.127" layer="21"/>
-<wire x1="6.66" y1="5.636" x2="4.826" y2="5.636" width="0.127" layer="21"/>
-<wire x1="4.826" y1="5.636" x2="2.94" y2="3.388" width="0.127" layer="21"/>
-<wire x1="2.94" y1="3.388" x2="-3.048" y2="3.388" width="0.127" layer="21"/>
-<wire x1="-3.048" y1="3.388" x2="-5.334" y2="5.636" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="5.636" x2="-6.66" y2="5.636" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="5.636" x2="-6.66" y2="1.64" width="0.127" layer="21"/>
-<wire x1="-6.66" y1="1.64" x2="-7.554" y2="1.64" width="0.127" layer="21"/>
-<wire x1="-7.554" y1="1.64" x2="-7.554" y2="-1.64" width="0.127" layer="21"/>
-<pad name="-" x="0" y="0" drill="0.8" diameter="3.9624" shape="square"/>
-<pad name="+1" x="-6.604" y="0" drill="2" diameter="3.175"/>
-<pad name="+2" x="6.604" y="0" drill="2" diameter="3.175"/>
-<text x="-3.556" y="5.602" size="1.6764" layer="25" font="vector">&gt;NAME</text>
-<text x="-4.318" y="-4.55" size="1.6764" layer="27" font="vector">&gt;VALUE</text>
-</package>
 <package name="SMADIODE">
 <description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
 <wire x1="-2.15" y1="1.3" x2="2.15" y2="1.3" width="0.2032" layer="51"/>
@@ -4515,6 +4463,92 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="JST-PH-2-SMT-RA">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="1" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
+<text x="2.286" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="-3.429" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="JST-PH-2-THM">
+<description>4UCon #01528
+http://www.4uconnector.com/online/object/4udrawing/01528.pdf</description>
+<wire x1="3" y1="-1.7" x2="0.5" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.7" x2="0.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-2.2" x2="-0.5" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-2.2" x2="-0.5" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.7" x2="-3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.7" x2="-3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="2.8" x2="3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="3" y1="2.8" x2="3" y2="-1.7" width="0.127" layer="21"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224" rot="R180"/>
+<text x="-2.8" y="-3.5" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="4.064" y="0.762" size="1.27" layer="21" font="vector" rot="R180">+</text>
+<text x="-3.302" y="0.762" size="1.27" layer="21" font="vector" rot="R180">-</text>
+</package>
+<package name="JST-PH-2-THM-RA">
+<description>&lt;b&gt;S2B-PH-K-S&lt;/b&gt; 
+&lt;p&gt;
+JST PH 2-pin thru-home side entry</description>
+<wire x1="-3" y1="6.3" x2="3" y2="6.3" width="0.127" layer="51"/>
+<wire x1="3" y1="6.3" x2="3" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-3" y1="-1.4" x2="-3" y2="6.3" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-3" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-0.3" x2="2.1" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-0.3" x2="2.1" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="6.3" x2="-0.3" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="3.4" x2="0.3" y2="3.4" width="0.127" layer="21"/>
+<wire x1="0.3" y1="3.4" x2="0.3" y2="6.3" width="0.127" layer="21"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.4224"/>
+<text x="-2.7" y="-3.8" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.486" y="-2.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="-1.429" y="-1.896" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="JST-PH-2-SMT">
+<wire x1="-4" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="2.5" x2="4" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-2.5" x2="-4" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="2.5" x2="2.25" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="-2.5" x2="1.75" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-2.5" x2="-4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-2.5" x2="-4" y2="-0.5" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="2" x="1" y="-1.8" dx="1" dy="5.5" layer="1"/>
+<smd name="NC1" x="-3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="0" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" font="vector">&gt;Name</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;Value</text>
+<text x="-2.914" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
+<text x="2.271" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TS2">
@@ -4563,19 +4597,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="3V">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="+1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -4611,6 +4632,16 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="PINHD2">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5975,38 +6006,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CR1220" uservalue="yes">
-<description>&lt;b&gt;CR1216/CR1220/CR1225 12mm 3V lithium coin cell &lt;/b&gt;
-&lt;p&gt;
-Great for battery packup. Both SMT and THM holders. 
-&lt;br&gt;
-Note the THM package has the ground pads on both sides of the PCB so that the masks are the same - this reduces the cost</description>
-<gates>
-<gate name="G$1" symbol="3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMT" package="CR1220-SMD">
-<connects>
-<connect gate="G$1" pin="+" pad="+$1"/>
-<connect gate="G$1" pin="+1" pad="+$2"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THM" package="CR1220-THM">
-<connects>
-<connect gate="G$1" pin="+" pad="+1"/>
-<connect gate="G$1" pin="+1" pad="+2"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIODE" prefix="D" uservalue="yes">
 <description>&lt;b&gt;Diode&lt;/b&gt;
 &lt;p&gt;
@@ -6449,6 +6448,57 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST_2PIN" prefix="CN" uservalue="yes">
+<description>&lt;b&gt;JST 2-Pin Connectors of various flavors&lt;/b&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SMT-RA (S2B-PH-SM4) 4UConnector #17311&lt;/li&gt;
+&lt;li&gt;SMT  (B2B-PH-SM4)&lt;/li&gt;
+&lt;li&gt;THM-RA (S2B-PH)&lt;/li&gt;
+&lt;li&gt;THM  (B2B-PH)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="-SMT-RA" package="JST-PH-2-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THM" package="JST-PH-2-THM">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-THM-RA" package="JST-PH-2-THM-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMT" package="JST-PH-2-SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7483,11 +7533,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="OC_NEWARK" value="86W6350"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="adafruit" deviceset="CR1220" device="THM">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="3080"/>
-<attribute name="OC_NEWARK" value="25T0433"/>
-</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="SW3" library="adafruit" deviceset="SPST_TACT" device="-KMR2">
 <attribute name="MF" value=""/>
@@ -7588,6 +7633,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" value="2211S-02G"/>
 <attribute name="OC_NEWARK" value="08N6744"/>
 </part>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R1206" value="100k">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="CR1206-FX-4700ELF"/>
+<attribute name="OC_NEWARK" value="06X5194"/>
+</part>
+<part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 </parts>
 <sheets>
 <sheet>
@@ -7677,11 +7728,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" x="45.72" y="-38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="78.74" y="-48.26"/>
-<instance part="U$1" gate="G$1" x="147.32" y="15.24" rot="R90">
-<attribute name="OC_NEWARK" x="147.32" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="147.32" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="147.32" y="15.24" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND11" gate="1" x="147.32" y="2.54"/>
 <instance part="D2" gate="G$1" x="30.48" y="-30.48" rot="R270">
 <attribute name="OC_NEWARK" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
@@ -7717,6 +7763,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MF" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R1" gate="G$1" x="35.56" y="-43.18">
+<attribute name="OC_NEWARK" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="CN1" gate="G$1" x="142.24" y="15.24" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7801,12 +7853,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="104.14" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="GND54" gate="1" pin="GND"/>
-<wire x1="45.72" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-40.64" x2="43.18" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="NR/FB"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="73.66" y1="-38.1" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
@@ -7814,8 +7860,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="-"/>
-<wire x1="147.32" y1="5.08" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="5.08" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -7833,6 +7880,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="-86.36" y1="43.18" x2="-78.74" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="43.18" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-78.74" y="45.72"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="GND54" gate="1" pin="GND"/>
+<wire x1="43.18" y1="-45.72" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -8170,15 +8223,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="+"/>
-<wire x1="144.78" y1="20.32" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+1"/>
-<wire x1="147.32" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="22.86" x2="149.86" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="22.86" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
-<junction x="147.32" y="22.86"/>
 <label x="147.32" y="30.48" size="1.778" layer="95"/>
+<wire x1="147.32" y1="15.24" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="-27.94" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
@@ -8196,15 +8244,13 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="20.32" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
 <label x="20.32" y="-38.1" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="30.48" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="EN"/>
-<wire x1="45.72" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-43.18" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="40.64" y="-38.1"/>
+<wire x1="30.48" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-33.02" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="30.48" y="-38.1"/>
 <pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="30.48" y1="-38.1" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<junction x="30.48" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="USB101" gate="G$1" pin="VBUS"/>
@@ -8217,11 +8263,18 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <label x="-81.28" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="EN" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="11"/>
 <wire x1="-86.36" y1="53.34" x2="-68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="-81.28" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="EN"/>
+<wire x1="45.72" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
+<label x="38.1" y="-45.72" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<junction x="40.64" y="-43.18"/>
 </segment>
 </net>
 <net name="N$1" class="0">
