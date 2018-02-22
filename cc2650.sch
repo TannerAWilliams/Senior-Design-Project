@@ -6796,108 +6796,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </deviceset>
 </devicesets>
 </library>
-<library name="MSP-EXP432">
-<packages>
-<package name="RGB_LED">
-<smd name="3" x="-0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="6" x="0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="1" x="-0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="4" x="0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="2" x="-0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="5" x="0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
-<wire x1="-1.225" y1="0.45" x2="-1.225" y2="0.3" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="0.3" x2="-1.15" y2="0.375" width="0.06" layer="21"/>
-<wire x1="-1.15" y1="0.375" x2="-1.225" y2="0.45" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="-0.325" x2="-1.225" y2="-0.475" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="-0.475" x2="-1.15" y2="-0.4" width="0.06" layer="21"/>
-<wire x1="-1.15" y1="-0.4" x2="-1.225" y2="-0.325" width="0.06" layer="21"/>
-<wire x1="-0.275" y1="0.875" x2="0.275" y2="0.875" width="0.06" layer="21"/>
-<wire x1="-0.275" y1="-0.875" x2="0.275" y2="-0.875" width="0.06" layer="21"/>
-<wire x1="-0.675" y1="-0.4" x2="-0.45" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="0.375" x2="-0.475" y2="0.375" width="0.127" layer="21"/>
-<text x="-3.0702" y="1.305" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.2544" y="-2.575" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
-<circle x="-1.524" y="1.016" radius="0.254" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RGB_LED">
-<text x="-2.9464" y="10.2616" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.2004" y="-10.8458" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="RA" x="-5.08" y="5.08" visible="off" length="short" direction="pas"/>
-<pin name="GA" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="BA" x="-5.08" y="-5.08" visible="off" length="short" direction="pas"/>
-<pin name="RC" x="3.81" y="5.08" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-2.54" y1="3.175" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="6.985" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="6.985" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0.127" y1="6.985" x2="0.127" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0.127" y1="1.905" x2="0.127" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-6.985" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-2.54" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-6.985" width="0.254" layer="94"/>
-<wire x1="0.127" y1="-3.175" x2="0.127" y2="-6.985" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.778" x2="1.778" y2="2.286" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.016" x2="1.778" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.524" x2="1.524" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.524" x2="1.778" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.778" y1="2.286" x2="1.778" y2="2.032" width="0.254" layer="94"/>
-<wire x1="1.778" y1="2.286" x2="1.524" y2="2.286" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-3.302" x2="1.778" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-4.064" x2="1.778" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-3.556" x2="1.524" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-3.556" x2="1.778" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-2.794" x2="1.778" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-2.794" x2="1.524" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.858" x2="1.778" y2="7.366" width="0.254" layer="94"/>
-<wire x1="1.27" y1="6.096" x2="1.778" y2="6.604" width="0.254" layer="94"/>
-<wire x1="1.778" y1="6.604" x2="1.524" y2="6.604" width="0.254" layer="94"/>
-<wire x1="1.778" y1="6.604" x2="1.778" y2="6.35" width="0.254" layer="94"/>
-<wire x1="1.778" y1="7.366" x2="1.778" y2="7.112" width="0.254" layer="94"/>
-<wire x1="1.778" y1="7.366" x2="1.524" y2="7.366" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="8.89" x2="-3.81" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="8.89" x2="-3.81" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<pin name="GC" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="BC" x="3.81" y="-5.08" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.286" y="7.366" size="0.762" layer="94">Red</text>
-<text x="-2.286" y="2.286" size="0.762" layer="94">Green</text>
-<text x="-2.286" y="-2.794" size="0.762" layer="94">Blue</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="EVERLIGHT_19-337" prefix="LED">
-<gates>
-<gate name="G$1" symbol="RGB_LED" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="RGB_LED">
-<connects>
-<connect gate="G$1" pin="BA" pad="4"/>
-<connect gate="G$1" pin="BC" pad="1"/>
-<connect gate="G$1" pin="GA" pad="6"/>
-<connect gate="G$1" pin="GC" pad="3"/>
-<connect gate="G$1" pin="RA" pad="5"/>
-<connect gate="G$1" pin="RC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="jumper">
 <packages>
 <package name="JP1M">
@@ -7239,26 +7137,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </part>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="JP4" library="jumper" deviceset="JP1M" device="" value="LED2_RED">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="2211S-02G"/>
-<attribute name="OC_NEWARK" value="08N6744"/>
-</part>
-<part name="JP5" library="jumper" deviceset="JP1M" device="" value="LED2_GREEN">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="2211S-02G"/>
-<attribute name="OC_NEWARK" value="08N6744"/>
-</part>
-<part name="JP6" library="jumper" deviceset="JP1M" device="" value="LED2_BLUE">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="2211S-02G"/>
-<attribute name="OC_NEWARK" value="08N6744"/>
-</part>
-<part name="LED5" library="MSP-EXP432" deviceset="EVERLIGHT_19-337" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
-</part>
 <part name="OPT3001" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="OPT3001DNPT"/>
@@ -7294,21 +7172,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" value="CRCW120610K0FKTA"/>
 <attribute name="OC_NEWARK" value="05F1568"/>
 </part>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value="24">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="WR12X24R0FTL"/>
-<attribute name="OC_NEWARK" value="02AC1817"/>
-</part>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R1206" value="16">
-<attribute name="MF" value="MOLEX"/>
-<attribute name="MPN" value="16-02-0069"/>
-<attribute name="OC_NEWARK" value="90C0133"/>
-</part>
-<part name="R15" library="adafruit" deviceset="R-US_" device="R1206" value="110">
-<attribute name="MF" value="VISHAY/DALE"/>
-<attribute name="MPN" value="CRCW1206110RFKEA"/>
-<attribute name="OC_NEWARK" value="53K1939"/>
-</part>
 <part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="100n">
 <attribute name="MF" value="KEMET"/>
 <attribute name="MPN" value="C1206C104K5RAC7210"/>
@@ -7325,7 +7188,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" value="HSMC-C150"/>
 <attribute name="OC_NEWARK" value="05M0343"/>
 </part>
-<part name="JP1" library="jumper" deviceset="JP1M" device="" value="LED1">
+<part name="JP1" library="jumper" deviceset="JP1M" device="" value="PWR_LED">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="2211S-02G"/>
 <attribute name="OC_NEWARK" value="08N6744"/>
@@ -7337,10 +7200,23 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </part>
 <part name="CN1" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
 <part name="MS1" library="wing_modified" deviceset="FEATHERWING" device="_NODIM"/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="470">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="CR1206-FX-4700ELF"/>
+<attribute name="OC_NEWARK" value="06X5194"/>
+</part>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="HSMC-C150"/>
+<attribute name="OC_NEWARK" value="05M0343"/>
+</part>
+<part name="JP2" library="jumper" deviceset="JP1M" device="" value="GPIO_LED">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="2211S-02G"/>
+<attribute name="OC_NEWARK" value="08N6744"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7457,10 +7333,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="CN1" gate="G$1" x="142.24" y="15.24" rot="R180"/>
 <instance part="MS1" gate="G$1" x="-73.66" y="27.94" rot="R90"/>
-<instance part="P+7" gate="VCC" x="-139.7" y="63.5"/>
-<instance part="GND9" gate="1" x="-129.54" y="35.56"/>
 <instance part="GND5" gate="1" x="-33.02" y="66.04"/>
-<instance part="P+2" gate="VCC" x="-33.02" y="50.8"/>
+<instance part="P+2" gate="VCC" x="-35.56" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -7554,18 +7428,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="45.72" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="43.18" y1="-45.72" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-129.54" y1="38.1" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="MS1" gate="G$1" pin="GPIO11"/>
-<wire x1="-129.54" y1="53.34" x2="-129.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="55.88" x2="-129.54" y2="55.88" width="0.1524" layer="91"/>
-<label x="-124.46" y="55.88" size="1.778" layer="95"/>
-<pinref part="MS1" gate="G$1" pin="GPIO12"/>
-<wire x1="-111.76" y1="53.34" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
-<label x="-124.46" y="53.34" size="1.778" layer="95"/>
-<junction x="-129.54" y="53.34"/>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GND"/>
@@ -7895,24 +7757,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO13"/>
-<label x="-124.46" y="50.8" size="1.778" layer="95"/>
-<pinref part="P+7" gate="VCC" pin="VCC"/>
-<wire x1="-111.76" y1="50.8" x2="-139.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="50.8" x2="-139.7" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="MS1" gate="G$1" pin="3V"/>
 <label x="-58.42" y="35.56" size="1.778" layer="95"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="-68.58" y1="35.56" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="35.56" x2="-33.02" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="35.56" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="MS1" gate="G$1" pin="AREF"/>
-<wire x1="-68.58" y1="38.1" x2="-50.8" y2="38.1" width="0.1524" layer="91"/>
-<label x="-58.42" y="38.1" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="38.1" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-50.8" y="35.56"/>
+<wire x1="-68.58" y1="35.56" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="35.56" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -8006,33 +7855,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" x="-83.82" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="-63.5" y="25.4"/>
-<instance part="GND14" gate="1" x="116.84" y="-13.97"/>
-<instance part="JP4" gate="G$1" x="81.28" y="11.43" smashed="yes">
-<attribute name="NAME" x="85.09" y="16.51" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="75.184" y="6.731" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="81.28" y="11.43" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="81.28" y="11.43" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="81.28" y="11.43" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP5" gate="G$1" x="68.58" y="6.35" smashed="yes">
-<attribute name="NAME" x="71.12" y="11.43" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="61.976" y="1.397" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="68.58" y="6.35" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="68.58" y="6.35" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="68.58" y="6.35" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="JP6" gate="G$1" x="55.88" y="1.27" smashed="yes">
-<attribute name="NAME" x="59.69" y="6.35" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="50.292" y="-3.683" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="55.88" y="1.27" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="55.88" y="1.27" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="55.88" y="1.27" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="LED5" gate="G$1" x="109.22" y="3.81">
-<attribute name="OC_NEWARK" x="109.22" y="3.81" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="109.22" y="3.81" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="109.22" y="3.81" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="GND14" gate="1" x="109.22" y="-11.43"/>
 <instance part="OPT3001" gate="A" x="-60.96" y="-43.18">
 <attribute name="OC_NEWARK" x="-60.96" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-60.96" y="-43.18" size="1.778" layer="96" display="off"/>
@@ -8053,25 +7876,27 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MF" x="-2.54" y="-30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-2.54" y="-30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="93.98" y="-1.27">
-<attribute name="OC_NEWARK" x="93.98" y="-1.27" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="93.98" y="-1.27" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="93.98" y="-1.27" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R14" gate="G$1" x="93.98" y="3.81">
-<attribute name="OC_NEWARK" x="93.98" y="3.81" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="93.98" y="3.81" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="93.98" y="3.81" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R15" gate="G$1" x="93.98" y="8.89">
-<attribute name="OC_NEWARK" x="93.98" y="8.89" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="93.98" y="8.89" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="93.98" y="8.89" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C1" gate="G$1" x="-93.98" y="-43.18">
 <attribute name="OC_NEWARK" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="76.2" y="10.16">
+<attribute name="OC_NEWARK" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED2" gate="G$1" x="86.36" y="10.16" rot="R90">
+<attribute name="OC_NEWARK" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="63.5" y="12.7" smashed="yes">
+<attribute name="NAME" x="66.04" y="17.78" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="62.23" y="6.985" size="1.778" layer="96"/>
+<attribute name="OC_NEWARK" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -8091,17 +7916,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="116.84" y1="8.89" x2="116.84" y2="3.81" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="3.81" x2="116.84" y2="-1.27" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="-1.27" x2="116.84" y2="-11.43" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="8.89" x2="116.84" y2="8.89" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="3.81" x2="116.84" y2="3.81" width="0.1524" layer="91"/>
-<junction x="116.84" y="3.81"/>
-<wire x1="113.03" y1="-1.27" x2="116.84" y2="-1.27" width="0.1524" layer="91"/>
-<junction x="116.84" y="-1.27"/>
-<pinref part="LED5" gate="G$1" pin="RC"/>
-<pinref part="LED5" gate="G$1" pin="GC"/>
-<pinref part="LED5" gate="G$1" pin="BC"/>
+<wire x1="109.22" y1="10.16" x2="109.22" y2="-8.89" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -8127,66 +7944,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="-2.54" y1="-38.1" x2="-43.18" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-35.56" y="-38.1" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="83.82" y1="8.89" x2="88.9" y2="8.89" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="99.06" y1="8.89" x2="104.14" y2="8.89" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="RA"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="99.06" y1="3.81" x2="104.14" y2="3.81" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="GA"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="99.06" y1="-1.27" x2="104.14" y2="-1.27" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="BA"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="71.12" y1="3.81" x2="88.9" y2="3.81" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="58.42" y1="-1.27" x2="88.9" y2="-1.27" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="P2.2_RGBLED_BLUE" class="0">
-<segment>
-<wire x1="55.88" y1="-1.27" x2="25.4" y2="-1.27" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="P2.1_RGBLED_GREEN" class="0">
-<segment>
-<wire x1="68.58" y1="3.81" x2="25.4" y2="3.81" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="P2.0_RGBLED_RED" class="0">
-<segment>
-<wire x1="81.28" y1="8.89" x2="25.4" y2="8.89" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8233,6 +7990,27 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="-91.44" y1="33.02" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-91.44" y="30.48"/>
 <label x="-101.6" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="83.82" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<label x="45.72" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

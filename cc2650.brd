@@ -477,31 +477,6 @@ JST PH 2-pin thru-home side entry</description>
 </package>
 </packages>
 </library>
-<library name="MSP-EXP432">
-<packages>
-<package name="RGB_LED">
-<smd name="3" x="-0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="6" x="0.675" y="-0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="1" x="-0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="4" x="0.675" y="0.725" dx="0.55" dy="0.4" layer="1"/>
-<smd name="2" x="-0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="5" x="0.75" y="0" dx="0.7" dy="0.5" layer="1"/>
-<wire x1="-1.225" y1="0.45" x2="-1.225" y2="0.3" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="0.3" x2="-1.15" y2="0.375" width="0.06" layer="21"/>
-<wire x1="-1.15" y1="0.375" x2="-1.225" y2="0.45" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="-0.325" x2="-1.225" y2="-0.475" width="0.06" layer="21"/>
-<wire x1="-1.225" y1="-0.475" x2="-1.15" y2="-0.4" width="0.06" layer="21"/>
-<wire x1="-1.15" y1="-0.4" x2="-1.225" y2="-0.325" width="0.06" layer="21"/>
-<wire x1="-0.275" y1="0.875" x2="0.275" y2="0.875" width="0.06" layer="21"/>
-<wire x1="-0.275" y1="-0.875" x2="0.275" y2="-0.875" width="0.06" layer="21"/>
-<wire x1="-0.675" y1="-0.4" x2="-0.45" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="0.375" x2="-0.475" y2="0.375" width="0.127" layer="21"/>
-<text x="-3.0702" y="1.305" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.2544" y="-2.575" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
-<circle x="-1.524" y="1.016" radius="0.254" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="wing_modified">
 <packages>
 <package name="FEATHERWING_DIM">
@@ -807,26 +782,6 @@ design rules under a new name.</description>
 <attribute name="MPN" value="KMR241G LFS" x="2.54" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="58M7854" x="2.54" y="48.26" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP4" library="jumper" package="JP1M" value="LED2_RED" x="19.05" y="6.35" smashed="yes">
-<attribute name="MF" value="" x="19.05" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2211S-02G" x="19.05" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08N6744" x="19.05" y="6.35" size="1.778" layer="27" display="off"/>
-</element>
-<element name="JP5" library="jumper" package="JP1M" value="LED2_GREEN" x="16.51" y="6.35" smashed="yes">
-<attribute name="MF" value="" x="16.51" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2211S-02G" x="16.51" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08N6744" x="16.51" y="6.35" size="1.778" layer="27" display="off"/>
-</element>
-<element name="JP6" library="jumper" package="JP1M" value="LED2_BLUE" x="21.59" y="6.35" smashed="yes">
-<attribute name="MF" value="" x="21.59" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2211S-02G" x="21.59" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08N6744" x="21.59" y="6.35" size="1.778" layer="27" display="off"/>
-</element>
-<element name="LED5" library="MSP-EXP432" package="RGB_LED" value="EVERLIGHT_19-337" x="19.05" y="15.875" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="19.05" y="15.875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="19.05" y="15.875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="19.05" y="15.875" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="OPT3001" library="OPT3001" package="DNP0006A" value="Value" x="38.1" y="18.415" smashed="yes" rot="R270">
 <attribute name="APPLICATION_BUILDNUMBER" value="*" x="38.1" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COMPTYPE" value="IC" x="38.1" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
@@ -848,10 +803,10 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="10N9702" x="18.034" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.134" y="20.334" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R3" library="adafruit" package="R1206" value="470" x="13.9065" y="12.065" rot="MR90">
-<attribute name="MF" value="" x="13.9065" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CR1206-FX-4700ELF" x="13.9065" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_NEWARK" value="06X5194" x="13.9065" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R3" library="adafruit" package="R1206" value="470" x="15.8115" y="12.065" rot="MR90">
+<attribute name="MF" value="" x="15.8115" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CR1206-FX-4700ELF" x="15.8115" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="06X5194" x="15.8115" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R5" library="adafruit" package="R1206" value="47k" x="7.5565" y="3.556" rot="R180">
 <attribute name="MF" value="VISHAY/DALE" x="7.5565" y="3.556" size="1.778" layer="27" rot="R180" display="off"/>
@@ -868,49 +823,49 @@ design rules under a new name.</description>
 <attribute name="MPN" value="CRCW120610K0FKTA" x="42.291" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="05F1568" x="42.291" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R13" library="adafruit" package="R1206" value="24" x="21.59" y="12.065" rot="R90">
-<attribute name="MF" value="" x="21.59" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="WR12X24R0FTL" x="21.59" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="02AC1817" x="21.59" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R14" library="adafruit" package="R1206" value="16" x="16.51" y="12.065" rot="R90">
-<attribute name="MF" value="MOLEX" x="16.51" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="16-02-0069" x="16.51" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="90C0133" x="16.51" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="R15" library="adafruit" package="R1206" value="110" x="19.05" y="12.065" rot="R90">
-<attribute name="MF" value="VISHAY/DALE" x="19.05" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CRCW1206110RFKEA" x="19.05" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="53K1939" x="19.05" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C1" library="adafruit" package="C1206" value="100n" x="25.4" y="19.1135">
-<attribute name="MF" value="KEMET" x="25.4" y="19.1135" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C1206C104K5RAC7210" x="25.4" y="19.1135" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="78H0343" x="25.4" y="19.1135" size="1.778" layer="27" display="off"/>
+<element name="C1" library="adafruit" package="C1206" value="100n" x="23.495" y="15.3035" rot="R270">
+<attribute name="MF" value="KEMET" x="23.495" y="15.3035" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C1206C104K5RAC7210" x="23.495" y="15.3035" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="78H0343" x="23.495" y="15.3035" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C3" library="adafruit" package="C1206" value="1n" x="7.5565" y="3.556" rot="MR180">
 <attribute name="MF" value="VISHAY/VITRAMON" x="7.5565" y="3.556" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="VJ1206Y102KXBAC" x="7.5565" y="3.556" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_NEWARK" value="48C2970" x="7.5565" y="3.556" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="LED1" library="adafruit" package="CHIPLED_1206" value="RED" x="13.9065" y="12.065" rot="R180">
-<attribute name="MF" value="" x="13.9065" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="HSMC-C150" x="13.9065" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="05M0343" x="13.9065" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED1" library="adafruit" package="CHIPLED_1206" value="RED" x="15.8115" y="12.065" rot="R180">
+<attribute name="MF" value="" x="15.8115" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="HSMC-C150" x="15.8115" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="05M0343" x="15.8115" y="12.065" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP1" library="jumper" package="JP1M" value="LED1" x="13.97" y="6.35" smashed="yes">
-<attribute name="MF" value="" x="13.97" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2211S-02G" x="13.97" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="08N6744" x="13.97" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.7" y="2.032" size="1.27" layer="27" ratio="10"/>
+<element name="JP1" library="jumper" package="JP1M" value="PWR_LED" x="15.875" y="6.35" smashed="yes">
+<attribute name="MF" value="" x="15.875" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="2211S-02G" x="15.875" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="08N6744" x="15.875" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.605" y="2.032" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R1" library="adafruit" package="R1206" value="100k" x="8.763" y="6.4135" rot="R180">
-<attribute name="MF" value="" x="8.763" y="6.4135" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CR1206-FX-4700ELF" x="8.763" y="6.4135" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="06X5194" x="8.763" y="6.4135" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R1" library="adafruit" package="R1206" value="100k" x="8.763" y="6.4135">
+<attribute name="MF" value="" x="8.763" y="6.4135" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CR1206-FX-4700ELF" x="8.763" y="6.4135" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="06X5194" x="8.763" y="6.4135" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CN1" library="adafruit" package="JST-PH-2-THM-RA" value="" x="10.795" y="16.51"/>
 <element name="MS1" library="wing_modified" package="FEATHERWING_DIM" value="FEATHERWING_NODIM" x="0" y="0"/>
+<element name="R2" library="adafruit" package="R1206" value="470" x="18.415" y="12.065" rot="MR90">
+<attribute name="MF" value="" x="36.195" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CR1206-FX-4700ELF" x="36.195" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="06X5194" x="36.195" y="12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="LED2" library="adafruit" package="CHIPLED_1206" value="RED" x="18.415" y="12.065" rot="R180">
+<attribute name="MF" value="" x="29.845" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="HSMC-C150" x="29.845" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="05M0343" x="29.845" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP2" library="jumper" package="JP1M" value="GPIO_LED" x="18.415" y="6.35">
+<attribute name="MF" value="" x="-3.175" y="18.415" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="2211S-02G" x="-3.175" y="18.415" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="08N6744" x="-3.175" y="18.415" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -936,9 +891,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="4"/>
 <contactref element="SW3" pad="1"/>
 <contactref element="SW3" pad="3"/>
-<contactref element="LED5" pad="2"/>
-<contactref element="LED5" pad="3"/>
-<contactref element="LED5" pad="1"/>
 <contactref element="OPT3001" pad="3"/>
 <contactref element="OPT3001" pad="7"/>
 <contactref element="C3" pad="2"/>
@@ -956,10 +908,9 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="C"/>
 <contactref element="IC1" pad="2"/>
 <contactref element="CN1" pad="2"/>
-<contactref element="MS1" pad="24"/>
-<contactref element="MS1" pad="23"/>
 <contactref element="MS1" pad="4"/>
 <contactref element="MS1" pad="16"/>
+<contactref element="LED2" pad="C"/>
 <wire x1="42.084" y1="16.5435" x2="44.384" y2="16.5435" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1" y1="18.415" x2="42.084" y2="16.5435" width="0" layer="19" extent="1-1"/>
 <wire x1="37.445" y1="19.365" x2="38.1" y2="18.415" width="0" layer="19" extent="1-1"/>
@@ -969,19 +920,15 @@ design rules under a new name.</description>
 <wire x1="37.759" y1="11.2285" x2="37.759" y2="12.9285" width="0" layer="19" extent="1-1"/>
 <wire x1="44.384" y1="6.4435" x2="39.459" y2="11.2285" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="1.27" x2="44.384" y2="6.4435" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="21.59" x2="37.445" y2="19.365" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="21.59" x2="29.21" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="19.1135" x2="26.67" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="27.178" y1="15.192" x2="26.8" y2="19.1135" width="0" layer="19" extent="1-1"/>
-<wire x1="27.178" y1="13.922" x2="27.178" y2="15.192" width="0" layer="19" extent="1-1"/>
-<wire x1="27.178" y1="11.382" x2="27.178" y2="13.922" width="0" layer="19" extent="1-1"/>
-<wire x1="26.575" y1="6.515" x2="27.178" y2="11.382" width="0" layer="19" extent="1-1"/>
-<wire x1="30.575" y1="6.515" x2="26.575" y2="6.515" width="0" layer="19" extent="1-1"/>
-<wire x1="19.775" y1="16.55" x2="26.8" y2="19.1135" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="16.625" x2="19.775" y2="16.55" width="0" layer="19" extent="1-1"/>
-<wire x1="18.325" y1="16.55" x2="19.05" y2="16.625" width="0" layer="19" extent="1-1"/>
-<wire x1="13.9065" y1="10.315" x2="18.325" y2="16.55" width="0" layer="19" extent="1-1"/>
-<wire x1="10.475" y1="11.41" x2="13.9065" y2="10.315" width="0" layer="19" extent="1-1"/>
+<wire x1="30.575" y1="6.515" x2="37.759" y2="11.2285" width="0" layer="19" extent="1-1"/>
+<wire x1="26.575" y1="6.515" x2="30.575" y2="6.515" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="11.382" x2="26.575" y2="6.515" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="13.922" x2="27.178" y2="11.382" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="15.192" x2="27.178" y2="13.922" width="0" layer="19" extent="1-1"/>
+<wire x1="23.495" y1="13.9035" x2="27.178" y2="15.192" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="10.315" x2="27.178" y2="11.382" width="0" layer="19" extent="1-1"/>
+<wire x1="15.8115" y1="10.315" x2="18.415" y2="10.315" width="0" layer="19" extent="1-1"/>
+<wire x1="10.475" y1="11.41" x2="15.8115" y2="10.315" width="0" layer="19" extent="1-1"/>
 <wire x1="9.525" y1="8.91" x2="10.475" y2="11.41" width="0" layer="19" extent="1-1"/>
 <wire x1="9.795" y1="16.51" x2="10.475" y2="11.41" width="0" layer="19" extent="1-1"/>
 <wire x1="8.9565" y1="3.556" x2="9.525" y2="8.91" width="0" layer="19" extent="1-16"/>
@@ -1074,7 +1021,7 @@ design rules under a new name.</description>
 <signal name="N$32">
 <contactref element="R3" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="13.9065" y1="13.815" x2="13.9065" y2="13.487" width="0" layer="19" extent="1-16"/>
+<wire x1="15.8115" y1="13.815" x2="15.8115" y2="13.487" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="DIO14">
 <contactref element="IC4" pad="21"/>
@@ -1127,22 +1074,18 @@ design rules under a new name.</description>
 <contactref element="R5" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<contactref element="MS1" pad="25"/>
 <contactref element="MS1" pad="2"/>
-<contactref element="MS1" pad="3"/>
 <wire x1="40.869" y1="18.796" x2="40.869" y2="19.177" width="0" layer="19" extent="1-16"/>
 <wire x1="38.75" y1="19.365" x2="40.869" y2="19.177" width="0" layer="19" extent="1-16"/>
 <wire x1="38.1" y1="19.365" x2="38.75" y2="19.365" width="0" layer="19" extent="1-1"/>
 <wire x1="27.178" y1="16.462" x2="38.1" y2="19.365" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="19.1135" x2="27.178" y2="16.462" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="21.59" x2="24" y2="19.1135" width="0" layer="19" extent="1-1"/>
+<wire x1="23.495" y1="16.7035" x2="27.178" y2="16.462" width="0" layer="19" extent="1-1"/>
 <wire x1="40.934" y1="6.4435" x2="40.869" y2="18.796" width="0" layer="19" extent="1-1"/>
 <wire x1="42.084" y1="6.4435" x2="40.934" y2="6.4435" width="0" layer="19" extent="1-1"/>
-<wire x1="8.575" y1="11.41" x2="24" y2="19.1135" width="0" layer="19" extent="1-1"/>
+<wire x1="8.575" y1="11.41" x2="23.495" y2="16.7035" width="0" layer="19" extent="1-1"/>
 <wire x1="8.9785" y1="3.556" x2="8.575" y2="11.41" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="1.27" x2="8.9785" y2="3.556" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="1.27" x2="8.89" y2="1.27" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="5.08" x2="11.43" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="15.875" y1="5.08" x2="8.9785" y2="3.556" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="D2" pad="A"/>
@@ -1159,59 +1102,33 @@ design rules under a new name.</description>
 <contactref element="MS1" pad="26"/>
 <wire x1="19.6715" y1="19.05" x2="21.59" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="8.575" y1="8.91" x2="19.6715" y2="19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="10.185" y1="6.4135" x2="8.575" y2="8.91" width="0" layer="19" extent="1-1"/>
+<wire x1="7.341" y1="6.4135" x2="8.575" y2="8.91" width="0" layer="19" extent="1-1"/>
 <wire x1="5.116" y1="10.13" x2="8.575" y2="8.91" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="P2.2_RGBLED_BLUE">
-<contactref element="JP6" pad="1"/>
-</signal>
-<signal name="P2.1_RGBLED_GREEN">
-<contactref element="JP5" pad="1"/>
-</signal>
-<signal name="P2.0_RGBLED_RED">
-<contactref element="JP4" pad="1"/>
-</signal>
-<signal name="N$3">
-<contactref element="JP4" pad="2"/>
-<contactref element="R15" pad="1"/>
-<wire x1="19.05" y1="7.62" x2="19.05" y2="10.643" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="LED5" pad="5"/>
-<contactref element="R15" pad="2"/>
-<wire x1="19.05" y1="13.487" x2="19.05" y2="15.125" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$5">
-<contactref element="LED5" pad="6"/>
-<contactref element="R14" pad="2"/>
-<wire x1="16.51" y1="13.487" x2="18.325" y2="15.2" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<contactref element="LED5" pad="4"/>
-<contactref element="R13" pad="2"/>
-<wire x1="19.775" y1="15.2" x2="21.59" y2="13.487" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$7">
-<contactref element="JP5" pad="2"/>
-<contactref element="R14" pad="1"/>
-<wire x1="16.51" y1="7.62" x2="16.51" y2="10.643" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="JP6" pad="2"/>
-<contactref element="R13" pad="1"/>
-<wire x1="21.59" y1="7.62" x2="21.59" y2="10.643" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EN">
 <contactref element="IC1" pad="3"/>
 <contactref element="R1" pad="2"/>
 <contactref element="MS1" pad="27"/>
 <wire x1="10.475" y1="8.91" x2="19.05" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="7.341" y1="6.4135" x2="10.475" y2="8.91" width="0" layer="19" extent="1-1"/>
+<wire x1="10.185" y1="6.4135" x2="10.475" y2="8.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="13.97" y1="7.62" x2="13.9065" y2="10.643" width="0" layer="19" extent="16-16"/>
+<wire x1="15.875" y1="7.62" x2="15.8115" y2="10.643" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$2">
+<contactref element="R2" pad="2"/>
+<contactref element="LED2" pad="A"/>
+<wire x1="18.415" y1="13.815" x2="18.415" y2="13.487" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$3">
+<contactref element="R2" pad="1"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="18.415" y1="7.62" x2="18.415" y2="10.643" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$4">
+<contactref element="JP2" pad="1"/>
 </signal>
 </signals>
 </board>
