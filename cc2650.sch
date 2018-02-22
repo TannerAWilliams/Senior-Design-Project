@@ -7152,7 +7152,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" value="MMSD701T1G"/>
 <attribute name="OC_NEWARK" value="10N9702"/>
 </part>
-<part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="470">
+<part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="787">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="CR1206-FX-4700ELF"/>
 <attribute name="OC_NEWARK" value="06X5194"/>
@@ -7202,12 +7202,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="MS1" library="wing_modified" deviceset="FEATHERWING" device="_NODIM"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="470">
+<part name="R2" library="adafruit" deviceset="R-US_" device="R1206" value="715">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="CR1206-FX-4700ELF"/>
 <attribute name="OC_NEWARK" value="06X5194"/>
 </part>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="RED">
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_1206" value="GREEN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="HSMC-C150"/>
 <attribute name="OC_NEWARK" value="05M0343"/>
@@ -8006,7 +8006,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="DIO5_TDO" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
