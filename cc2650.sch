@@ -7074,6 +7074,82 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </deviceset>
 </devicesets>
 </library>
+<library name="CPC1117N">
+<description>&lt;SPST-NC Solid State Relay Solder 150 mA rms/mA dc Surface Mount, DC MOSFET&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOP254P610X218-4N">
+<description>&lt;b&gt;SOP&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.825" y="1.27" dx="1.35" dy="0.65" layer="1"/>
+<smd name="2" x="-2.825" y="-1.27" dx="1.35" dy="0.65" layer="1"/>
+<smd name="3" x="2.825" y="-1.27" dx="1.35" dy="0.65" layer="1"/>
+<smd name="4" x="2.825" y="1.27" dx="1.35" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.75" y1="2.396" x2="3.75" y2="2.396" width="0.05" layer="51"/>
+<wire x1="3.75" y1="2.396" x2="3.75" y2="-2.396" width="0.05" layer="51"/>
+<wire x1="3.75" y1="-2.396" x2="-3.75" y2="-2.396" width="0.05" layer="51"/>
+<wire x1="-3.75" y1="-2.396" x2="-3.75" y2="2.396" width="0.05" layer="51"/>
+<wire x1="-1.905" y1="2.044" x2="1.905" y2="2.044" width="0.1" layer="51"/>
+<wire x1="1.905" y1="2.044" x2="1.905" y2="-2.044" width="0.1" layer="51"/>
+<wire x1="1.905" y1="-2.044" x2="-1.905" y2="-2.044" width="0.1" layer="51"/>
+<wire x1="-1.905" y1="-2.044" x2="-1.905" y2="2.044" width="0.1" layer="51"/>
+<wire x1="-1.905" y1="-0.496" x2="0.635" y2="2.044" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="2.044" x2="1.8" y2="2.044" width="0.2" layer="21"/>
+<wire x1="1.8" y1="2.044" x2="1.8" y2="-2.044" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-2.044" x2="-1.8" y2="-2.044" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="-2.044" x2="-1.8" y2="2.044" width="0.2" layer="21"/>
+<wire x1="-3.5" y1="1.945" x2="-2.15" y2="1.945" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CPC1117N">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-5.08" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CONTROL_+" x="0" y="0" length="middle" direction="in"/>
+<pin name="CONTROL_-" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="LOAD(2)" x="38.1" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="LOAD(1)" x="38.1" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CPC1117N" prefix="K">
+<description>&lt;b&gt;SPST-NC Solid State Relay Solder 150 mA rms/mA dc Surface Mount, DC MOSFET&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/1471/0900766b81471bd4.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CPC1117N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP254P610X218-4N">
+<connects>
+<connect gate="G$1" pin="CONTROL_+" pad="1"/>
+<connect gate="G$1" pin="CONTROL_-" pad="2"/>
+<connect gate="G$1" pin="LOAD(1)" pad="3"/>
+<connect gate="G$1" pin="LOAD(2)" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="3D_PACKAGE" value="" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="SPST-NC Solid State Relay Solder 150 mA rms/mA dc Surface Mount, DC MOSFET" constant="no"/>
+<attribute name="HEIGHT" value="2.184mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="IXYS SEMICONDUCTOR" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPC1117N" constant="no"/>
+<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9061039" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7217,6 +7293,18 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" value="2211S-02G"/>
 <attribute name="OC_NEWARK" value="08N6744"/>
 </part>
+<part name="K1" library="CPC1117N" deviceset="CPC1117N" device=""/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R1206" value="150">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="CR1206-FX-4700ELF"/>
+<attribute name="OC_NEWARK" value="06X5194"/>
+</part>
+<part name="JP3" library="jumper" deviceset="JP1M" device="" value="PWR_LED">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="2211S-02G"/>
+<attribute name="OC_NEWARK" value="08N6744"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7229,7 +7317,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="12.7" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="76.2" y1="40.64" x2="76.2" y2="-7.62" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="76.2" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="95" style="shortdash"/>
-<text x="78.74" y="-27.94" size="1.778" layer="91">Current measurement jumper</text>
+<text x="121.92" y="-17.78" size="1.778" layer="91">Current measurement jumper</text>
 <wire x1="12.7" y1="-54.61" x2="12.7" y2="-8.89" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="12.7" y1="-8.89" x2="163.83" y2="-8.89" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="163.83" y1="-8.89" x2="163.83" y2="-54.61" width="0.1524" layer="95" style="shortdash"/>
@@ -7274,7 +7362,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="GND7" gate="1" x="22.86" y="48.26"/>
 <instance part="GND21" gate="1" x="68.58" y="7.62"/>
-<instance part="GND54" gate="1" x="43.18" y="-48.26"/>
+<instance part="GND54" gate="1" x="93.98" y="-40.64"/>
 <instance part="P+3" gate="VCC" x="88.9" y="78.74"/>
 <instance part="P+4" gate="VCC" x="-17.78" y="7.62"/>
 <instance part="P+5" gate="VCC" x="22.86" y="81.28"/>
@@ -7286,17 +7374,17 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MF" x="99.06" y="12.7" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="99.06" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC1" gate="G$1" x="45.72" y="-38.1">
-<attribute name="OC_NEWARK" x="45.72" y="-38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="45.72" y="-38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="45.72" y="-38.1" size="1.778" layer="96" display="off"/>
+<instance part="IC1" gate="G$1" x="96.52" y="-30.48">
+<attribute name="OC_NEWARK" x="96.52" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="-30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND10" gate="1" x="78.74" y="-48.26"/>
+<instance part="GND10" gate="1" x="129.54" y="-40.64"/>
 <instance part="GND11" gate="1" x="147.32" y="2.54"/>
-<instance part="D2" gate="G$1" x="30.48" y="-30.48" rot="R270">
-<attribute name="OC_NEWARK" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="30.48" y="-30.48" size="1.778" layer="96" display="off"/>
+<instance part="D2" gate="G$1" x="45.72" y="-22.86">
+<attribute name="OC_NEWARK" x="45.72" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="45.72" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="45.72" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="43.18" y="15.24">
 <attribute name="OC_NEWARK" x="43.18" y="15.24" size="1.778" layer="96" display="off"/>
@@ -7326,15 +7414,31 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MF" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="35.56" y="-43.18">
-<attribute name="OC_NEWARK" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="35.56" y="-43.18" size="1.778" layer="96" display="off"/>
+<instance part="R1" gate="G$1" x="81.28" y="-35.56">
+<attribute name="OC_NEWARK" x="81.28" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="81.28" y="-35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="81.28" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CN1" gate="G$1" x="142.24" y="15.24" rot="R180"/>
 <instance part="MS1" gate="G$1" x="-73.66" y="27.94" rot="R90"/>
 <instance part="GND5" gate="1" x="-33.02" y="66.04"/>
 <instance part="P+2" gate="VCC" x="-35.56" y="40.64"/>
+<instance part="K1" gate="G$1" x="27.94" y="-38.1" smashed="yes">
+<attribute name="NAME" x="36.83" y="-45.72" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="-48.26" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND3" gate="1" x="25.4" y="-45.72"/>
+<instance part="R4" gate="G$1" x="27.94" y="-30.48" rot="R90">
+<attribute name="OC_NEWARK" x="27.94" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="27.94" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="27.94" y="-30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="JP3" gate="G$1" x="137.16" y="-33.02" smashed="yes">
+<attribute name="NAME" x="139.7" y="-27.94" size="1.778" layer="95" rot="R180"/>
+<attribute name="OC_NEWARK" x="137.16" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="137.16" y="-33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="137.16" y="-33.02" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7414,8 +7518,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <segment>
 <pinref part="IC1" gate="G$1" pin="NR/FB"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="73.66" y1="-38.1" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-38.1" x2="78.74" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-30.48" x2="129.54" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="-30.48" x2="129.54" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -7425,9 +7529,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="45.72" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="-33.02" x2="93.98" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
-<wire x1="43.18" y1="-45.72" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-38.1" x2="93.98" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GND"/>
@@ -7440,6 +7544,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="MS1" gate="G$1" pin="NC"/>
 <label x="-58.42" y="71.12" size="1.778" layer="95"/>
 <wire x1="-33.02" y1="71.12" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$1" pin="CONTROL_-"/>
+<wire x1="27.94" y1="-40.64" x2="25.4" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-40.64" x2="25.4" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -7746,11 +7856,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="-40.64" x2="101.6" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<label x="91.44" y="-40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="30.48" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <wire x1="20.32" y1="15.24" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
@@ -7763,6 +7868,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="-68.58" y1="35.56" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="35.56" x2="-35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="139.7" y1="-35.56" x2="144.78" y2="-35.56" width="0.1524" layer="91"/>
+<label x="144.78" y="-35.56" size="1.778" layer="95"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -7772,29 +7882,17 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="147.32" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="-27.94" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
-<label x="30.48" y="-22.86" size="1.778" layer="95"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-<segment>
 <pinref part="MS1" gate="G$1" pin="VBAT"/>
 <wire x1="-111.76" y1="43.18" x2="-124.46" y2="43.18" width="0.1524" layer="91"/>
 <label x="-124.46" y="43.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="K1" gate="G$1" pin="LOAD(1)"/>
+<wire x1="66.04" y1="-40.64" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
+<label x="66.04" y="-48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VBUS" class="2">
-<segment>
-<wire x1="20.32" y1="-38.1" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
-<label x="20.32" y="-38.1" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="30.48" y1="-38.1" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-33.02" x2="30.48" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="30.48" y="-38.1"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="30.48" y1="-38.1" x2="30.48" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<junction x="30.48" y="-43.18"/>
-</segment>
 <segment>
 <pinref part="USB101" gate="G$1" pin="VBUS"/>
 <wire x1="104.14" y1="7.62" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
@@ -7805,14 +7903,23 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="-111.76" y1="48.26" x2="-124.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="-124.46" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="43.18" y1="-22.86" x2="27.94" y2="-22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="-22.86" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="-22.86" x2="22.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-25.4" x2="27.94" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="27.94" y="-22.86"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="EN"/>
-<wire x1="45.72" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
-<label x="38.1" y="-45.72" size="1.778" layer="95"/>
+<wire x1="96.52" y1="-35.56" x2="86.36" y2="-35.56" width="0.1524" layer="91"/>
+<label x="86.36" y="-38.1" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="40.64" y="-43.18"/>
+<junction x="86.36" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="EN"/>
@@ -7825,6 +7932,40 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="LOAD(2)"/>
+<wire x1="66.04" y1="-38.1" x2="73.66" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-38.1" x2="73.66" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<wire x1="73.66" y1="-35.56" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-30.48" x2="96.52" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="-35.56" x2="73.66" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="73.66" y="-35.56"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="-22.86" x2="55.88" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-22.86" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-30.48" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="73.66" y="-30.48"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="CONTROL_+"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="-35.56" x2="27.94" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUT"/>
+<wire x1="124.46" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-33.02" x2="132.08" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-35.56" x2="137.16" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
