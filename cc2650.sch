@@ -6196,108 +6196,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="MSP_Connectors">
-<packages>
-<package name="MOLEX_105164-0001">
-<wire x1="-1.9" y1="0" x2="1.9" y2="0" width="0.254" layer="20"/>
-<wire x1="1.9" y1="0" x2="1.9" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-1.9" y1="0" x2="-1.9" y2="-1.625" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="0" x2="-2.85" y2="0" width="0.254" layer="20"/>
-<wire x1="-2.85" y1="0" x2="-2.85" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="4.2" y1="0" x2="2.85" y2="0" width="0.254" layer="20"/>
-<wire x1="2.85" y1="0" x2="2.85" y2="-2.05" width="0.254" layer="20"/>
-<pad name="SHIELD_TH1" x="-3.95" y="-1.35" drill="0.6" shape="long" rot="R90"/>
-<pad name="SHIELD_TH2" x="3.95" y="-1.35" drill="0.6" shape="long" rot="R90"/>
-<wire x1="-3.95" y1="-1.75" x2="-3.95" y2="-0.95" width="0.6" layer="46"/>
-<wire x1="3.95" y1="-0.95" x2="3.95" y2="-1.75" width="0.6" layer="46"/>
-<smd name="D+" x="0" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="ID" x="0.65" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="GND" x="1.3" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="D-" x="-0.65" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="VBUS" x="-1.3" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<wire x1="3.8" y1="-4" x2="3.8" y2="0.47639375" width="0.1" layer="21"/>
-<wire x1="3.8" y1="0.47639375" x2="3.57639375" y2="0.7" width="0.1" layer="21"/>
-<wire x1="3.57639375" y1="0.7" x2="-3.57639375" y2="0.7" width="0.1" layer="21"/>
-<wire x1="-3.57639375" y1="0.7" x2="-3.8" y2="0.47639375" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="0.47639375" x2="-3.8" y2="-4" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="-4" x2="-3.1" y2="-4" width="0.1" layer="21"/>
-<wire x1="-3.1" y1="-4" x2="-3.1" y2="-4.3" width="0.1" layer="21"/>
-<wire x1="-3.1" y1="-4.3" x2="3.1" y2="-4.3" width="0.1" layer="21"/>
-<wire x1="3.1" y1="-4.3" x2="3.1" y2="-4" width="0.1" layer="21"/>
-<wire x1="3.1" y1="-4" x2="3.8" y2="-4" width="0.1" layer="21"/>
-<smd name="SHIELD2" x="-0.85" y="-1.45" dx="1.2" dy="1.9" layer="1"/>
-<smd name="SHIELD3" x="0.85" y="-1.45" dx="1.2" dy="1.9" layer="1"/>
-<smd name="SHIELD4" x="2.45" y="-3.75" dx="1.45" dy="2.1" layer="1"/>
-<smd name="SHIELD1" x="-2.45" y="-3.75" dx="1.45" dy="2.1" layer="1"/>
-<wire x1="-2.85" y1="-2.05" x2="-1.9" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-1.9" y1="-2.05" x2="-1.9" y2="-1.65" width="0.254" layer="20"/>
-<wire x1="1.9" y1="-2.05" x2="2.85" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="0" x2="-4.2" y2="1" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="1" x2="-5.08" y2="1" width="0.254" layer="20"/>
-<wire x1="4.2" y1="0" x2="4.2" y2="1" width="0.254" layer="20"/>
-<wire x1="4.2" y1="1" x2="5.08" y2="1" width="0.254" layer="20"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB-MICRO-FLIPPED">
-<wire x1="0.762" y1="-7.62" x2="0.762" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-3.302" y1="5.08" x2="-3.302" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-3.302" y1="-5.08" x2="-2.032" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="6.35" x2="-2.032" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="6.35" x2="-3.302" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="8.636" x2="1.524" y2="8.636" width="0.254" layer="94"/>
-<wire x1="1.524" y1="8.636" x2="1.524" y2="-8.636" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-8.636" x2="-7.62" y2="-8.636" width="0.254" layer="94"/>
-<wire x1="0.762" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-4.572" y2="5.588" width="0.254" layer="94"/>
-<wire x1="-4.572" y1="5.588" x2="-4.572" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="-4.572" y1="-5.588" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="0.762" y2="-7.62" width="0.254" layer="94"/>
-<pin name="D+" x="-5.08" y="0" visible="pin" length="middle" direction="in"/>
-<pin name="D-" x="-5.08" y="2.54" visible="pin" length="middle" direction="in"/>
-<pin name="GND" x="-5.08" y="-5.08" visible="pin" length="middle" direction="in"/>
-<pin name="ID" x="-5.08" y="-2.54" visible="pin" length="middle" direction="in"/>
-<pin name="SHIELD1" x="-5.08" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="SHIELD2" x="-2.54" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="SHIELD3" x="0" y="-10.16" visible="off" length="short" rot="R90"/>
-<pin name="SHIELD4" x="-5.08" y="10.16" visible="off" length="short" rot="R270"/>
-<pin name="SHIELD5" x="-2.54" y="10.16" visible="off" length="short" rot="R270"/>
-<pin name="SHIELD6" x="0" y="10.16" visible="off" length="short" rot="R270"/>
-<pin name="VBUS" x="-5.08" y="5.08" visible="pin" length="middle" direction="in"/>
-<text x="-6.604" y="12.192" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-8.382" y="14.478" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USB-MICRO" prefix="USB" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="USB-MICRO-FLIPPED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_105164-0001">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="ID" pad="ID"/>
-<connect gate="G$1" pin="SHIELD1" pad="SHIELD1"/>
-<connect gate="G$1" pin="SHIELD2" pad="SHIELD2"/>
-<connect gate="G$1" pin="SHIELD3" pad="SHIELD3"/>
-<connect gate="G$1" pin="SHIELD4" pad="SHIELD4"/>
-<connect gate="G$1" pin="SHIELD5" pad="SHIELD_TH1"/>
-<connect gate="G$1" pin="SHIELD6" pad="SHIELD_TH2"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TPS73133DBVR">
 <description>&lt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -6669,6 +6567,20 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-2" size="1" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
+<package name="2040002">
+<smd name="5" x="1.3" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<text x="-5.5" y="1" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left">&gt;NAME</text>
+<text x="5.5" y="1" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center-left">&gt;VALUE</text>
+<pad name="P$1" x="3.255" y="1.45" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$2" x="-3.255" y="1.45" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$4" x="-3.615" y="3.85" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$5" x="3.615" y="3.85" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-BRIDGE">
@@ -6703,6 +6615,23 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pin name="AC2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="-" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
+<symbol name="MICROB-PLUG">
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.508" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.508" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.508" layer="94"/>
+<text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.27" layer="96" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<pin name="VCC" x="-7.62" y="5.08" length="short"/>
+<pin name="D-" x="-7.62" y="2.54" length="short"/>
+<pin name="D+" x="-7.62" y="0" length="short"/>
+<pin name="ID" x="-7.62" y="-2.54" length="short"/>
+<pin name="GND" x="-7.62" y="-5.08" length="short"/>
+<pin name="SH1" x="12.7" y="2.54" length="short" direction="nc" rot="R180"/>
+<pin name="SH2" x="12.7" y="0" length="short" direction="nc" rot="R180"/>
+<pin name="SH3" x="12.7" y="-2.54" length="short" direction="nc" rot="R180"/>
+<pin name="SH4" x="12.7" y="-5.08" length="short" direction="nc" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPD2E001">
@@ -6716,6 +6645,29 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <connect gate="G$1" pin="-" pad="1"/>
 <connect gate="G$1" pin="AC1" pad="2"/>
 <connect gate="G$1" pin="AC2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2040002">
+<gates>
+<gate name="G$1" symbol="MICROB-PLUG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2040002">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SH1" pad="P$1"/>
+<connect gate="G$1" pin="SH2" pad="P$2"/>
+<connect gate="G$1" pin="SH3" pad="P$4"/>
+<connect gate="G$1" pin="SH4" pad="P$5"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6769,11 +6721,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="USB101" library="MSP_Connectors" deviceset="USB-MICRO" device="">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="105164-0001"/>
-<attribute name="OC_NEWARK" value="99Y3224"/>
-</part>
 <part name="IC1" library="TPS73133DBVR" deviceset="TPS73133DBVR" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="TPS73133DBVR"/>
@@ -6874,6 +6821,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="OC_NEWARK" value="48C2970"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="U$2" library="AMP_Ruler-LT1370" deviceset="2040002" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6935,14 +6883,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <instance part="P+3" gate="VCC" x="88.9" y="78.74"/>
 <instance part="P+4" gate="VCC" x="-17.78" y="7.62"/>
 <instance part="P+5" gate="VCC" x="22.86" y="81.28"/>
-<instance part="GND4" gate="1" x="127" y="17.78"/>
-<instance part="USB101" gate="G$1" x="114.3" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="115.824" y="28.448" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="122.682" y="0.762" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="OC_NEWARK" x="114.3" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="114.3" y="15.24" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="114.3" y="15.24" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="GND4" gate="1" x="121.92" y="7.62"/>
 <instance part="IC1" gate="G$1" x="96.52" y="-30.48">
 <attribute name="OC_NEWARK" x="96.52" y="-30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="96.52" y="-30.48" size="1.778" layer="96" display="off"/>
@@ -6999,6 +6940,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" x="55.88" y="-35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="55.88" y="-45.72"/>
+<instance part="U$2" gate="G$1" x="106.68" y="15.24" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -7071,9 +7013,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="USB101" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="119.38" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="10.16" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NR/FB"/>
@@ -7442,9 +7383,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </net>
 <net name="VBUS" class="2">
 <segment>
-<pinref part="USB101" gate="G$1" pin="VBUS"/>
-<wire x1="119.38" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91"/>
-<label x="127" y="10.16" size="1.778" layer="95"/>
+<wire x1="114.3" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
+<label x="121.92" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="USB"/>
@@ -7502,9 +7442,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </net>
 <net name="D-" class="0">
 <segment>
-<pinref part="USB101" gate="G$1" pin="D-"/>
-<wire x1="119.38" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
-<label x="134.62" y="12.7" size="1.778" layer="95"/>
+<wire x1="114.3" y1="17.78" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
+<label x="129.54" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="AC2"/>
@@ -7514,9 +7453,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="USB101" gate="G$1" pin="D+"/>
-<wire x1="119.38" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
-<label x="134.62" y="15.24" size="1.778" layer="95"/>
+<wire x1="114.3" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
+<label x="129.54" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="AC1"/>

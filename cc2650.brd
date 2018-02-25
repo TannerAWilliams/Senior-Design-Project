@@ -347,49 +347,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </package>
 </packages>
 </library>
-<library name="MSP_Connectors">
-<packages>
-<package name="MOLEX_105164-0001">
-<wire x1="-1.9" y1="0" x2="1.9" y2="0" width="0.254" layer="20"/>
-<wire x1="1.9" y1="0" x2="1.9" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-1.9" y1="0" x2="-1.9" y2="-1.625" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="0" x2="-2.85" y2="0" width="0.254" layer="20"/>
-<wire x1="-2.85" y1="0" x2="-2.85" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="4.2" y1="0" x2="2.85" y2="0" width="0.254" layer="20"/>
-<wire x1="2.85" y1="0" x2="2.85" y2="-2.05" width="0.254" layer="20"/>
-<pad name="SHIELD_TH1" x="-3.95" y="-1.35" drill="0.6" shape="long" rot="R90"/>
-<pad name="SHIELD_TH2" x="3.95" y="-1.35" drill="0.6" shape="long" rot="R90"/>
-<wire x1="-3.95" y1="-1.75" x2="-3.95" y2="-0.95" width="0.6" layer="46"/>
-<wire x1="3.95" y1="-0.95" x2="3.95" y2="-1.75" width="0.6" layer="46"/>
-<smd name="D+" x="0" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="ID" x="0.65" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="GND" x="1.3" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="D-" x="-0.65" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<smd name="VBUS" x="-1.3" y="-4.1" dx="0.45" dy="1.4" layer="1"/>
-<wire x1="3.8" y1="-4" x2="3.8" y2="0.47639375" width="0.1" layer="21"/>
-<wire x1="3.8" y1="0.47639375" x2="3.57639375" y2="0.7" width="0.1" layer="21"/>
-<wire x1="3.57639375" y1="0.7" x2="-3.57639375" y2="0.7" width="0.1" layer="21"/>
-<wire x1="-3.57639375" y1="0.7" x2="-3.8" y2="0.47639375" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="0.47639375" x2="-3.8" y2="-4" width="0.1" layer="21"/>
-<wire x1="-3.8" y1="-4" x2="-3.1" y2="-4" width="0.1" layer="21"/>
-<wire x1="-3.1" y1="-4" x2="-3.1" y2="-4.3" width="0.1" layer="21"/>
-<wire x1="-3.1" y1="-4.3" x2="3.1" y2="-4.3" width="0.1" layer="21"/>
-<wire x1="3.1" y1="-4.3" x2="3.1" y2="-4" width="0.1" layer="21"/>
-<wire x1="3.1" y1="-4" x2="3.8" y2="-4" width="0.1" layer="21"/>
-<smd name="SHIELD2" x="-0.85" y="-1.45" dx="1.2" dy="1.9" layer="1"/>
-<smd name="SHIELD3" x="0.85" y="-1.45" dx="1.2" dy="1.9" layer="1"/>
-<smd name="SHIELD4" x="2.45" y="-3.75" dx="1.45" dy="2.1" layer="1"/>
-<smd name="SHIELD1" x="-2.45" y="-3.75" dx="1.45" dy="2.1" layer="1"/>
-<wire x1="-2.85" y1="-2.05" x2="-1.9" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-1.9" y1="-2.05" x2="-1.9" y2="-1.65" width="0.254" layer="20"/>
-<wire x1="1.9" y1="-2.05" x2="2.85" y2="-2.05" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="0" x2="-4.2" y2="1" width="0.254" layer="20"/>
-<wire x1="-4.2" y1="1" x2="-5.08" y2="1" width="0.254" layer="20"/>
-<wire x1="4.2" y1="0" x2="4.2" y2="1" width="0.254" layer="20"/>
-<wire x1="4.2" y1="1" x2="5.08" y2="1" width="0.254" layer="20"/>
-</package>
-</packages>
-</library>
 <library name="TPS73133DBVR">
 <description>&lt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -503,6 +460,20 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <smd name="4" x="-0.95" y="0.9" dx="0.8" dy="0.9" layer="1"/>
 <text x="0" y="2" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-2" size="1" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
+<package name="2040002">
+<smd name="5" x="1.3" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="4.725" dx="2.55" dy="0.4" layer="1" rot="R90"/>
+<text x="-5.5" y="1" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center-left">&gt;NAME</text>
+<text x="5.5" y="1" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center-left">&gt;VALUE</text>
+<pad name="P$1" x="3.255" y="1.45" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$2" x="-3.255" y="1.45" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$4" x="-3.615" y="3.85" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="P$5" x="3.615" y="3.85" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -738,11 +709,6 @@ design rules under a new name.</description>
 <attribute name="MPN" value="KMR241G LFS" x="2.5865" y="3.3625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="58M7854" x="2.5865" y="3.3625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="USB101" library="MSP_Connectors" package="MOLEX_105164-0001" value="" x="1.016" y="11.43" rot="R90">
-<attribute name="MF" value="" x="1.016" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="105164-0001" x="1.016" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="99Y3224" x="1.016" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="IC1" library="TPS73133DBVR" package="SOT95P280X145-5N" value="TPS73133DBVR" x="11.43" y="19.685" smashed="yes" rot="R90">
 <attribute name="3D_PACKAGE" value="" x="11.43" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ALLIED_NUMBER" value="" x="11.43" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
@@ -850,6 +816,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="VJ1206Y102KXBAC" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="48C2970" x="10.16" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$2" library="AMP_Ruler-LT1370" package="2040002" value="2040002" x="-3.81" y="-20.955"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -871,7 +838,6 @@ design rules under a new name.</description>
 <vertex x="44.7675" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="USB101" pad="GND"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="SW3" pad="1"/>
 <contactref element="SW3" pad="3"/>
@@ -913,15 +879,14 @@ design rules under a new name.</description>
 <wire x1="23.495" y1="13.9035" x2="27.178" y2="13.922" width="0" layer="19" extent="1-1"/>
 <wire x1="18.415" y1="10.315" x2="23.495" y2="13.9035" width="0" layer="19" extent="1-1"/>
 <wire x1="15.8115" y1="10.315" x2="18.415" y2="10.315" width="0" layer="19" extent="1-1"/>
-<wire x1="10.91" y1="12.33" x2="15.8115" y2="10.315" width="0" layer="19" extent="1-1"/>
-<wire x1="5.116" y1="12.73" x2="10.91" y2="12.33" width="0" layer="19" extent="1-1"/>
+<wire x1="11.56" y1="7.62" x2="15.8115" y2="10.315" width="0" layer="19" extent="1-1"/>
+<wire x1="10.91" y1="12.33" x2="11.56" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="8.9565" y1="3.556" x2="11.56" y2="7.62" width="0" layer="19" extent="1-16"/>
+<wire x1="13.97" y1="1.27" x2="8.9565" y2="3.556" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="18.435" x2="10.91" y2="12.33" width="0" layer="19" extent="1-1"/>
 <wire x1="12.38" y1="20.935" x2="11.43" y2="18.435" width="0" layer="19" extent="1-1"/>
-<wire x1="1.7865" y1="5.3625" x2="5.116" y2="12.73" width="0" layer="19" extent="1-1"/>
+<wire x1="1.7865" y1="5.3625" x2="8.9565" y2="3.556" width="0" layer="19" extent="1-16"/>
 <wire x1="1.7865" y1="1.3625" x2="1.7865" y2="5.3625" width="0" layer="19" extent="1-1"/>
-<wire x1="8.9565" y1="3.556" x2="1.7865" y2="5.3625" width="0" layer="19" extent="1-16"/>
-<wire x1="13.97" y1="1.27" x2="8.9565" y2="3.556" width="0" layer="19" extent="16-16"/>
-<wire x1="11.56" y1="7.62" x2="1.7865" y2="1.3625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRESET">
 <contactref element="SW1" pad="2"/>
@@ -1079,7 +1044,6 @@ design rules under a new name.</description>
 <contactref element="MS1" pad="28"/>
 </signal>
 <signal name="VBUS" class="2">
-<contactref element="USB101" pad="VBUS"/>
 <contactref element="MS1" pad="26"/>
 <contactref element="U$1" pad="4"/>
 <contactref element="IC1" pad="1"/>
@@ -1088,8 +1052,7 @@ design rules under a new name.</description>
 <wire x1="10.48" y1="18.435" x2="21.59" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="8.611" y1="14.6685" x2="10.48" y2="18.435" width="0" layer="19" extent="1-1"/>
 <wire x1="11.11" y1="10.53" x2="8.611" y2="14.6685" width="0" layer="19" extent="1-1"/>
-<wire x1="5.116" y1="10.13" x2="8.611" y2="14.6685" width="0" layer="19" extent="1-1"/>
-<wire x1="8.76" y1="7.62" x2="5.116" y2="10.13" width="0" layer="19" extent="1-1"/>
+<wire x1="8.76" y1="7.62" x2="11.11" y2="10.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EN">
 <contactref element="IC1" pad="3"/>
@@ -1119,14 +1082,10 @@ design rules under a new name.</description>
 <wire x1="10.48" y1="20.935" x2="6.6675" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
-<contactref element="USB101" pad="D-"/>
 <contactref element="U$1" pad="3"/>
-<wire x1="9.21" y1="10.53" x2="5.116" y2="10.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D+">
-<contactref element="USB101" pad="D+"/>
 <contactref element="U$1" pad="2"/>
-<wire x1="9.21" y1="12.33" x2="5.116" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
