@@ -6913,7 +6913,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="JP1" gate="G$1" x="30.48" y="17.78" smashed="yes">
 <attribute name="NAME" x="33.02" y="22.86" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="29.21" y="12.065" size="1.778" layer="96"/>
+<attribute name="VALUE" x="24.13" y="9.525" size="1.778" layer="96"/>
 <attribute name="OC_NEWARK" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="30.48" y="17.78" size="1.778" layer="96" display="off"/>
@@ -7301,7 +7301,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <label x="-58.42" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="PWR_LED" class="0">
 <segment>
 <wire x1="50.8" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -7375,13 +7375,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
-<segment>
-<pinref part="MS1" gate="G$1" pin="VBAT"/>
-<wire x1="-111.76" y1="43.18" x2="-124.46" y2="43.18" width="0.1524" layer="91"/>
-<label x="-124.46" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VBUS" class="2">
 <segment>
 <pinref part="MS1" gate="G$1" pin="USB"/>
@@ -7426,14 +7419,14 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <label x="-124.46" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PWR_LED_JPR" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="15.24" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VCC_JPR" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="124.46" y1="-33.02" x2="132.08" y2="-33.02" width="0.1524" layer="91"/>
@@ -7631,14 +7624,14 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <label x="-101.6" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GPIO_LED" class="0">
 <segment>
 <wire x1="83.82" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="GPIO_LED_JPR" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
