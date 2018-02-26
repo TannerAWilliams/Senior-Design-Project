@@ -6115,87 +6115,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="OPT3001">
-<packages>
-<package name="DNP0006A">
-<smd name="1" x="-0.95" y="0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="2" x="-0.95" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="3" x="-0.95" y="-0.655" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="4" x="0.95" y="-0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="5" x="0.95" y="0" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="6" x="0.95" y="0.65" dx="0.25" dy="0.25" layer="1" roundness="100"/>
-<smd name="7" x="0" y="0" dx="0.65" dy="1.35" layer="1" cream="no"/>
-<wire x1="-1.1176" y1="-1.143" x2="-0.9144" y2="-1.143" width="0.1778" layer="21"/>
-<wire x1="0.9144" y1="-1.143" x2="1.1176" y2="-1.143" width="0.1778" layer="21"/>
-<wire x1="0.9144" y1="1.143" x2="1.1176" y2="1.143" width="0.1778" layer="21"/>
-<wire x1="-1.1176" y1="1.143" x2="-0.127" y2="1.143" width="0.1778" layer="21"/>
-<wire x1="-1.0414" y1="1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
-<wire x1="-1.0414" y1="-1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
-<wire x1="-0.3556" y1="0.635" x2="-0.762" y2="0.635" width="0.1016" layer="51" curve="-180"/>
-<wire x1="-0.762" y1="0.635" x2="-0.3556" y2="0.635" width="0.1016" layer="51" curve="-180"/>
-<polygon width="0.0254" layer="31">
-<vertex x="0.31" y="-0.625"/>
-<vertex x="0.31" y="0.625"/>
-<vertex x="-0.31" y="0.625"/>
-<vertex x="-0.31" y="-0.625"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="OPT3001DNP">
-<pin name="VDD" x="-17.78" y="7.62" length="middle" direction="pwr"/>
-<pin name="ADDR" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="SCL" x="17.78" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="INT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="SDA" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="PAD" x="17.78" y="-10.16" length="middle" direction="pas" rot="R180"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
-<text x="-4.7244" y="1.4986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="OPT3001DNPR" prefix="U">
-<gates>
-<gate name="A" symbol="OPT3001DNP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DNP0006A">
-<connects>
-<connect gate="A" pin="ADDR" pad="2"/>
-<connect gate="A" pin="GND" pad="3"/>
-<connect gate="A" pin="INT" pad="5"/>
-<connect gate="A" pin="PAD" pad="7"/>
-<connect gate="A" pin="SCL" pad="4"/>
-<connect gate="A" pin="SDA" pad="6"/>
-<connect gate="A" pin="VDD" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="APPLICATION_BUILDNUMBER" value="*" constant="no"/>
-<attribute name="COMPTYPE" value="IC" constant="no"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="MOUNTTYPE" value="SMT" constant="no"/>
-<attribute name="PACKAGEREFERENCE" value="DNP0006A" constant="no"/>
-<attribute name="PARTNUMBER" value="OPT3001DNP" constant="no"/>
-<attribute name="PIN_COUNT" value="7" constant="no"/>
-<attribute name="REFDES" value="RefDes" constant="no"/>
-<attribute name="ROHS" value="Y" constant="no"/>
-<attribute name="TYPE" value="TYPE" constant="no"/>
-<attribute name="VALUE" value="Value" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TPS73133DBVR">
 <description>&lt;Texas Instruments TPS73133DBVR, LDO Voltage Regulator, 0.15A, 3.3 V 0.5%, 1.7  5.5 Vin, 5-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -6734,16 +6653,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </part>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="OPT3001" library="OPT3001" deviceset="OPT3001DNPR" device="" value="Value">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="OPT3001DNPT"/>
-<attribute name="OC_NEWARK" value="40Y2528"/>
-</part>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R1206" value="787">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="CR1206-FX-4700ELF"/>
@@ -6753,21 +6662,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MF" value="VISHAY/DALE"/>
 <attribute name="MPN" value="CRCW120647K0FKTA"/>
 <attribute name="OC_NEWARK" value="32C8848"/>
-</part>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R1206" value="10k">
-<attribute name="MF" value="VISHAY/DALE"/>
-<attribute name="MPN" value="CRCW120610K0FKTA"/>
-<attribute name="OC_NEWARK" value="05F1568"/>
-</part>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R1206" value="10k">
-<attribute name="MF" value="VISHAY/DALE"/>
-<attribute name="MPN" value="CRCW120610K0FKTA"/>
-<attribute name="OC_NEWARK" value="05F1568"/>
-</part>
-<part name="C1" library="adafruit" deviceset="C-US" device="C1206" value="100n">
-<attribute name="MF" value="KEMET"/>
-<attribute name="MPN" value="C1206C104K5RAC7210"/>
-<attribute name="OC_NEWARK" value="78H0343"/>
 </part>
 <part name="C3" library="adafruit" deviceset="C-US" device="C1206" value="1n">
 <attribute name="MF" value="VISHAY/VITRAMON"/>
@@ -7449,14 +7343,14 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </net>
 <net name="D+" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="D+"/>
-<wire x1="114.3" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
-<label x="121.92" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="AC2"/>
 <wire x1="27.94" y1="-40.64" x2="27.94" y2="-43.18" width="0.1524" layer="91"/>
 <label x="27.94" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="D+"/>
+<wire x1="114.3" y1="15.24" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
+<label x="121.92" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -7473,12 +7367,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="21.59" y1="50.8" x2="130.81" y2="50.8" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="130.81" y1="50.8" x2="130.81" y2="-25.4" width="0.1524" layer="95" style="shortdash"/>
 <wire x1="21.59" y1="-25.4" x2="130.81" y2="-25.4" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="-111.76" y1="-1.27" x2="20.32" y2="-1.27" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="-111.76" y1="-67.31" x2="-111.76" y2="-1.27" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="-111.76" y1="-67.31" x2="20.32" y2="-67.31" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="20.32" y1="-67.31" x2="20.32" y2="-1.27" width="0.1524" layer="95" style="shortdash"/>
-<text x="-78.74" y="-5.08" size="1.778" layer="91">Light Sensor</text>
-<text x="-58.42" y="-27.94" size="1.778" layer="91">Possibly disconnect from header pins.</text>
 </plain>
 <instances>
 <instance part="SW3" gate="G$1" x="-83.82" y="30.48" rot="R90">
@@ -7488,31 +7376,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="GND12" gate="1" x="-63.5" y="25.4"/>
 <instance part="GND14" gate="1" x="109.22" y="-11.43"/>
-<instance part="OPT3001" gate="A" x="-60.96" y="-43.18">
-<attribute name="OC_NEWARK" x="-60.96" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-60.96" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-60.96" y="-43.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND8" gate="1" x="-33.02" y="-55.88"/>
-<instance part="P+9" gate="VCC" x="-78.74" y="-25.4"/>
-<instance part="P+10" gate="VCC" x="-12.7" y="-20.32"/>
-<instance part="P+11" gate="VCC" x="-12.7" y="-20.32"/>
-<instance part="GND15" gate="1" x="-93.98" y="-53.34"/>
-<instance part="R7" gate="G$1" x="-12.7" y="-30.48" rot="R90">
-<attribute name="OC_NEWARK" x="-12.7" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-12.7" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-12.7" y="-30.48" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="R8" gate="G$1" x="-2.54" y="-30.48" rot="R90">
-<attribute name="OC_NEWARK" x="-2.54" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-2.54" y="-30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-2.54" y="-30.48" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C1" gate="G$1" x="-93.98" y="-43.18">
-<attribute name="OC_NEWARK" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-93.98" y="-43.18" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R2" gate="G$1" x="76.2" y="10.16">
 <attribute name="OC_NEWARK" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
@@ -7551,65 +7414,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="109.22" y1="10.16" x2="109.22" y2="-8.89" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="-33.02" y1="-53.34" x2="-33.02" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="OPT3001" gate="A" pin="GND"/>
-<wire x1="-33.02" y1="-50.8" x2="-38.1" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-50.8" x2="-43.18" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-50.8" x2="-38.1" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="-38.1" y="-50.8"/>
-<pinref part="OPT3001" gate="A" pin="PAD"/>
-<wire x1="-38.1" y1="-53.34" x2="-43.18" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-93.98" y1="-48.26" x2="-93.98" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="DIO2" class="0">
-<segment>
-<wire x1="-2.54" y1="-35.56" x2="-2.54" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="OPT3001" gate="A" pin="SDA"/>
-<wire x1="-2.54" y1="-38.1" x2="-43.18" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-35.56" y="-38.1" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="P+10" gate="VCC" pin="VCC"/>
-<pinref part="P+11" gate="VCC" pin="VCC"/>
-<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="-12.7" y="-22.86"/>
-<wire x1="-12.7" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-25.4" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-25.4" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="OPT3001" gate="A" pin="ADDR"/>
-<wire x1="7.62" y1="-43.18" x2="-43.18" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<junction x="-12.7" y="-25.4"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<junction x="-2.54" y="-25.4"/>
-</segment>
-<segment>
-<pinref part="P+9" gate="VCC" pin="VCC"/>
-<pinref part="OPT3001" gate="A" pin="VDD"/>
-<wire x1="-78.74" y1="-27.94" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-40.64" x2="-93.98" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="-35.56" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="-78.74" y="-35.56"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="DIO3" class="0">
-<segment>
-<pinref part="OPT3001" gate="A" pin="SCL"/>
-<label x="-35.56" y="-35.56" size="1.778" layer="95"/>
-<wire x1="-12.7" y1="-35.56" x2="-43.18" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DIO14" class="0">
