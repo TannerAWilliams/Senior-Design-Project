@@ -156,6 +156,7 @@
 <dimension x1="0" y1="22.9235" x2="10.795" y2="22.86" x3="5.408440625" y3="24.7518625" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="22.9235" x2="16.51" y2="22.86" x3="8.27451875" y3="27.966790625" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="11.43" x3="-2.54" y3="5.715" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="50.8" y1="0" x2="50.8" y2="11.43" x3="53.34" y3="5.715" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="CC2650MODAMOHR(2)">
@@ -1261,13 +1262,14 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="3"/>
 <contactref element="U$1" pad="3"/>
 <wire x1="9.25423125" y1="6.8161" x2="8.12276875" y2="6.8161" width="0.1524" layer="1"/>
-<wire x1="7.2644" y1="10.5156" x2="6.35" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="6.6675" y1="11.1125" x2="7.2644" y2="10.5156" width="0.1524" layer="1"/>
+<wire x1="6.6675" y1="11.1125" x2="6.35" y2="11.43" width="0.1524" layer="1"/>
 <wire x1="10.4885" y1="7.4955" x2="9.93363125" y2="7.4955" width="0.1524" layer="1"/>
 <wire x1="9.93363125" y1="7.4955" x2="9.25423125" y2="6.8161" width="0.1524" layer="1"/>
 <wire x1="8.12276875" y1="6.8161" x2="7.2644" y2="7.67446875" width="0.1524" layer="1"/>
 <wire x1="7.2644" y1="7.67446875" x2="7.2644" y2="10.5156" width="0.1524" layer="1"/>
-<wire x1="6.35" y1="11.43" x2="5.715" y2="11.43" width="0.1524" layer="1"/>
-<wire x1="5.715" y1="11.43" x2="4.725" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="4.725" y1="11.43" x2="6.35" y2="11.43" width="0.1524" layer="1"/>
+<wire x1="6.35" y1="11.43" x2="6.6675" y2="11.1125" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
