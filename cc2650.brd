@@ -156,6 +156,9 @@
 <dimension x1="0" y1="22.9235" x2="10.795" y2="22.86" x3="5.408440625" y3="24.7518625" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="22.9235" x2="16.51" y2="22.86" x3="8.27451875" y3="27.966790625" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="11.43" x3="-2.54" y3="5.715" textsize="1.778" layer="47" unit="inch"/>
+<text x="15.24" y="15.875" size="0.8128" layer="25" rot="R90">PWR</text>
+<text x="48.895" y="8.89" size="5.08" layer="26" rot="MR0">TEAM ROCKET</text>
+<text x="27.305" y="4.445" size="0.8128" layer="25">RESET</text>
 </plain>
 <libraries>
 <library name="CC2650MODAMOHR(2)">
