@@ -7362,41 +7362,37 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </sheet>
 <sheet>
 <plain>
-<wire x1="-111.76" y1="1.27" x2="-111.76" y2="52.07" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="-111.76" y1="52.07" x2="17.78" y2="52.07" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="17.78" y1="1.27" x2="17.78" y2="52.07" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="-111.76" y1="1.27" x2="17.78" y2="1.27" width="0.1524" layer="95" style="shortdash"/>
-<text x="-68.58" y="48.26" size="1.778" layer="91">GPIO Programmable</text>
-<text x="67.564" y="45.974" size="2.54" layer="95">User LEDs</text>
-<wire x1="21.59" y1="-25.4" x2="21.59" y2="50.8" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="21.59" y1="50.8" x2="130.81" y2="50.8" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="130.81" y1="50.8" x2="130.81" y2="-25.4" width="0.1524" layer="95" style="shortdash"/>
-<wire x1="21.59" y1="-25.4" x2="130.81" y2="-25.4" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-66.04" y1="-36.83" x2="-66.04" y2="34.29" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-66.04" y1="34.29" x2="63.5" y2="34.29" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="63.5" y1="-36.83" x2="63.5" y2="34.29" width="0.1524" layer="95" style="shortdash"/>
+<wire x1="-66.04" y1="-36.83" x2="63.5" y2="-36.83" width="0.1524" layer="95" style="shortdash"/>
+<text x="-60.96" y="30.48" size="1.778" layer="91">GPIO Programmable</text>
+<text x="16.764" y="12.954" size="2.54" layer="95">User LEDs</text>
 </plain>
 <instances>
-<instance part="SW3" gate="G$1" x="-83.82" y="30.48" rot="R90">
-<attribute name="OC_NEWARK" x="-83.82" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-83.82" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-83.82" y="30.48" size="1.778" layer="96" display="off"/>
+<instance part="SW3" gate="G$1" x="-35.56" y="-15.24" rot="R90">
+<attribute name="OC_NEWARK" x="-35.56" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-35.56" y="-15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-35.56" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND12" gate="1" x="-63.5" y="25.4"/>
-<instance part="GND14" gate="1" x="109.22" y="-11.43"/>
-<instance part="R2" gate="G$1" x="76.2" y="10.16">
-<attribute name="OC_NEWARK" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="76.2" y="10.16" size="1.778" layer="96" display="off"/>
+<instance part="GND12" gate="1" x="-15.24" y="-20.32"/>
+<instance part="GND14" gate="1" x="7.62" y="8.89"/>
+<instance part="R2" gate="G$1" x="-25.4" y="15.24">
+<attribute name="OC_NEWARK" x="-25.4" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-25.4" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-25.4" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED2" gate="G$1" x="86.36" y="10.16" rot="R90">
-<attribute name="OC_NEWARK" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="86.36" y="10.16" size="1.778" layer="96" display="off"/>
+<instance part="LED2" gate="G$1" x="-15.24" y="15.24" rot="R90">
+<attribute name="OC_NEWARK" x="-15.24" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-15.24" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-15.24" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP2" gate="G$1" x="63.5" y="12.7" smashed="yes">
-<attribute name="NAME" x="66.04" y="17.78" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="62.23" y="6.985" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="63.5" y="12.7" size="1.778" layer="96" display="off"/>
+<instance part="JP2" gate="G$1" x="-38.1" y="17.78" smashed="yes">
+<attribute name="NAME" x="-35.56" y="22.86" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-39.37" y="12.065" size="1.778" layer="96"/>
+<attribute name="OC_NEWARK" x="-38.1" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-38.1" y="17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-38.1" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -7405,25 +7401,25 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <net name="GND" class="0">
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="-63.5" y1="27.94" x2="-63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="P"/>
-<wire x1="-63.5" y1="30.48" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-15.24" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="G$1" pin="P1"/>
-<wire x1="-76.2" y1="30.48" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="33.02" x2="-76.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="33.02" x2="-76.2" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-76.2" y="30.48"/>
+<wire x1="-27.94" y1="-15.24" x2="-30.48" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-12.7" x2="-27.94" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-12.7" x2="-27.94" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-27.94" y="-15.24"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="109.22" y1="10.16" x2="109.22" y2="-8.89" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="10.16" x2="109.22" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="GPIO_LED" class="0">
 <segment>
-<wire x1="83.82" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
@@ -7431,27 +7427,27 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <net name="GPIO_LED_JPR" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="15.24" x2="-35.56" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="DIO5_TDO" class="0">
+<net name="DIO14" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="45.72" y="10.16" size="1.778" layer="95"/>
+<pinref part="SW3" gate="G$1" pin="S"/>
+<wire x1="-40.64" y1="-15.24" x2="-43.18" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="S1"/>
+<wire x1="-43.18" y1="-15.24" x2="-53.34" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-12.7" x2="-43.18" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-12.7" x2="-43.18" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-15.24"/>
+<label x="-53.34" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO13" class="0">
 <segment>
-<pinref part="SW3" gate="G$1" pin="S"/>
-<wire x1="-88.9" y1="30.48" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="S1"/>
-<wire x1="-91.44" y1="30.48" x2="-101.6" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="33.02" x2="-91.44" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="33.02" x2="-91.44" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-91.44" y="30.48"/>
-<label x="-101.6" y="30.48" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="15.24" x2="-58.42" y2="15.24" width="0.1524" layer="91"/>
+<label x="-55.88" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
