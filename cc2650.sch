@@ -6610,14 +6610,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="0.9144" y1="-1.143" x2="1.1176" y2="-1.143" width="0.1778" layer="21"/>
 <wire x1="0.9144" y1="1.143" x2="1.1176" y2="1.143" width="0.1778" layer="21"/>
 <wire x1="-1.1176" y1="1.143" x2="-0.127" y2="1.143" width="0.1778" layer="21"/>
-<text x="-0.9906" y="1.8796" size="1.27" layer="21" ratio="6" rot="SR0">Designator256</text>
 <wire x1="-1.0414" y1="1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
 <wire x1="1.0414" y1="-1.0414" x2="1.0414" y2="1.0414" width="0.1524" layer="51"/>
 <wire x1="-1.0414" y1="-1.0414" x2="1.0414" y2="-1.0414" width="0.1524" layer="51"/>
 <wire x1="-1.0414" y1="-1.0414" x2="-1.0414" y2="1.0414" width="0.1524" layer="51"/>
 <wire x1="-0.3556" y1="0.635" x2="-0.762" y2="0.635" width="0.1016" layer="51" curve="-180"/>
 <wire x1="-0.762" y1="0.635" x2="-0.3556" y2="0.635" width="0.1016" layer="51" curve="-180"/>
-<text x="-0.7366" y="-0.8382" size="1.27" layer="51" ratio="6" rot="SR0">.Designator</text>
 <polygon width="0.0254" layer="31">
 <vertex x="0.31" y="-0.625"/>
 <vertex x="0.31" y="0.625"/>
