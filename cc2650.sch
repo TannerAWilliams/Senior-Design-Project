@@ -6821,6 +6821,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="OC_NEWARK" value="05AC8016"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R1206" value="715">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value="CR1206-FX-4700ELF"/>
+<attribute name="OC_NEWARK" value="06X5194"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7526,6 +7531,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <attribute name="MPN" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="88.9" y="15.24"/>
+<instance part="R7" gate="G$1" x="129.54" y="43.18">
+<attribute name="OC_NEWARK" x="129.54" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="129.54" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="129.54" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
