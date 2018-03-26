@@ -6763,11 +6763,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="100n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="C0805C105K5RACTU"/>
-<attribute name="OC_NEWARK" value="05AC8016"/>
-</part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
 <part name="LED0" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="RED"/>
@@ -6787,6 +6782,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="R10" library="adafruit" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C1206" value="1n"/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C1206" value="100n"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C1206" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -7445,11 +7441,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <instance part="P+7" gate="VCC" x="96.52" y="43.18"/>
 <instance part="P+8" gate="VCC" x="144.78" y="45.72"/>
 <instance part="P+9" gate="VCC" x="144.78" y="45.72"/>
-<instance part="C1" gate="G$1" x="88.9" y="25.4">
-<attribute name="OC_NEWARK" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND9" gate="1" x="88.9" y="15.24"/>
 <instance part="LED1" gate="G$1" x="53.34" y="33.02" rot="R90"/>
 <instance part="R3" gate="G$1" x="43.18" y="33.02" rot="R180">
@@ -7459,6 +7450,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="R9" gate="G$1" x="144.78" y="35.56" rot="R90"/>
 <instance part="R10" gate="G$1" x="154.94" y="35.56" rot="R90"/>
+<instance part="C3" gate="G$1" x="88.9" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -7493,9 +7485,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <wire x1="137.16" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="88.9" y1="20.32" x2="88.9" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GPIO_LED" class="0">
@@ -7559,11 +7551,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <pinref part="P+7" gate="VCC" pin="VCC"/>
 <pinref part="U1" gate="A" pin="VDD"/>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="33.02" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 <junction x="96.52" y="33.02"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DIO2" class="0">
