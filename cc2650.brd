@@ -782,10 +782,10 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="6613970" x="10.795" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER_NAME" value="RS" x="10.795" y="19.685" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="SW3" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="20.5105" y="8.89" smashed="yes">
-<attribute name="MF" value="" x="-5.5245" y="51.435" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="KMR241G LFS" x="-5.5245" y="51.435" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="58M7854" x="-5.5245" y="51.435" size="1.778" layer="27" display="off"/>
+<element name="SW3" library="adafruit" package="KMR2" value="SPST_TACT-KMR2" x="19.2405" y="8.89" smashed="yes">
+<attribute name="MF" value="" x="-6.7945" y="51.435" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="KMR241G LFS" x="-6.7945" y="51.435" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="58M7854" x="-6.7945" y="51.435" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="jumper" package="JP1M" value="PWR_LED" x="18.415" y="16.4465" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="18.415" y="16.4465" size="1.778" layer="27" rot="R180" display="off"/>
@@ -894,7 +894,7 @@ design rules under a new name.</description>
 <via x="1.905" y="12.7" extent="1-16" drill="0.35"/>
 <via x="1.27" y="11.43" extent="1-16" drill="0.35"/>
 <via x="1.905" y="10.16" extent="1-16" drill="0.35"/>
-<via x="40.64" y="18.415" extent="1-16" drill="0.35"/>
+<via x="40.64" y="18.034" extent="1-16" drill="0.35"/>
 <via x="43.815" y="12.7" extent="1-16" drill="0.35"/>
 <via x="39.37" y="8.255" extent="1-16" drill="0.35"/>
 <via x="43.815" y="4.445" extent="1-16" drill="0.35"/>
@@ -905,6 +905,21 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C3" pad="2"/>
+<via x="6.35" y="8.89" extent="1-16" drill="0.35"/>
+<via x="8.89" y="8.255" extent="1-16" drill="0.35"/>
+<via x="20.955" y="5.08" extent="1-16" drill="0.35"/>
+<via x="15.4305" y="8.5725" extent="1-16" drill="0.35"/>
+<via x="12.8905" y="14.097" extent="1-16" drill="0.35"/>
+<via x="32.4485" y="17.018" extent="1-16" drill="0.35"/>
+<via x="4.2545" y="17.4625" extent="1-16" drill="0.35"/>
+<via x="38.1" y="9.271" extent="1-16" drill="0.35"/>
+<via x="36.3855" y="8.382" extent="1-16" drill="0.35"/>
+<via x="44.196" y="8.0645" extent="1-16" drill="0.35"/>
+<via x="39.243" y="14.986" extent="1-16" drill="0.35"/>
+<via x="30.4165" y="15.4305" extent="1-16" drill="0.35"/>
+<via x="12.7635" y="9.9695" extent="1-16" drill="0.35"/>
+<via x="6.4135" y="15.6845" extent="1-16" drill="0.35"/>
+<via x="1.3335" y="16.9545" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="NRESET">
 <contactref element="SW1" pad="2"/>
@@ -1149,9 +1164,9 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="1.27" x2="26.67" y2="3.81" width="0.254" layer="1"/>
 <via x="22.86" y="4.445" extent="1-16" drill="0.35"/>
 <wire x1="22.86" y1="4.445" x2="27.305" y2="4.445" width="0.254" layer="16"/>
-<wire x1="22.5105" y1="8.09" x2="18.5105" y2="8.09" width="0.254" layer="1"/>
-<wire x1="22.86" y1="4.445" x2="22.86" y2="7.7405" width="0.254" layer="1"/>
-<wire x1="22.86" y1="7.7405" x2="22.5105" y2="8.09" width="0.254" layer="1"/>
+<wire x1="17.2405" y1="8.09" x2="21.2405" y2="8.09" width="0.254" layer="1"/>
+<wire x1="21.2405" y1="8.09" x2="21.2405" y2="6.0645" width="0.254" layer="1"/>
+<wire x1="21.2405" y1="6.0645" x2="22.86" y2="4.445" width="0.254" layer="1"/>
 </signal>
 <signal name="DIO13">
 <contactref element="IC4" pad="20"/>
