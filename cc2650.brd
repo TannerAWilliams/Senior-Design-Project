@@ -157,7 +157,7 @@
 <dimension x1="0" y1="22.9235" x2="16.51" y2="22.86" x3="8.27451875" y3="27.966790625" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="0" y2="11.43" x3="-2.54" y3="5.715" textsize="1.778" layer="47" unit="inch"/>
 <text x="17.145" y="12.065" size="0.8128" layer="25" rot="R270" align="top-center">PWR</text>
-<text x="48.895" y="8.89" size="3.81" layer="26" rot="MR0">TEAM ROCKET</text>
+<text x="48.895" y="8.89" size="2.54" layer="26" rot="MR0">TEAM ROCKET</text>
 <text x="0.3175" y="3.1115" size="0.6096" layer="25" rot="R270" align="bottom-center">RESET</text>
 <text x="41.91" y="2.54" size="0.8128" layer="25" align="bottom-center">TX</text>
 <text x="39.37" y="2.54" size="0.8128" layer="25" align="bottom-center">RX</text>
