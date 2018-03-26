@@ -6785,29 +6785,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 <part name="R8" library="adafruit" deviceset="R-US_" device="R1206" value="47k"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="47k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603JR-07100KL"/>
-<attribute name="OC_NEWARK" value="68R0147"/>
-</part>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C1206" value="1n"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="1n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="C0805C105K5RACTU"/>
-<attribute name="OC_NEWARK" value="05AC8016"/>
-</part>
 <part name="C2" library="adafruit" deviceset="C-US" device="C1206" value="100n"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="100n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="C0805C105K5RACTU"/>
-<attribute name="OC_NEWARK" value="05AC8016"/>
-</part>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="10k">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="RC0603JR-07100KL"/>
-<attribute name="OC_NEWARK" value="68R0147"/>
-</part>
 </parts>
 <sheets>
 <sheet>
@@ -6911,24 +6890,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="R2" gate="G$1" x="187.96" y="17.78"/>
 <instance part="R8" gate="G$1" x="137.16" y="124.46" rot="R90"/>
-<instance part="R11" gate="G$1" x="157.48" y="127" rot="R270">
-<attribute name="OC_NEWARK" x="157.48" y="127" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="157.48" y="127" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="157.48" y="127" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="R7" gate="G$1" x="203.2" y="2.54"/>
 <instance part="C4" gate="G$1" x="137.16" y="114.3"/>
-<instance part="C5" gate="G$1" x="129.54" y="101.6">
-<attribute name="OC_NEWARK" x="129.54" y="101.6" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="129.54" y="101.6" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="129.54" y="101.6" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C2" gate="G$1" x="170.18" y="17.78"/>
-<instance part="C6" gate="G$1" x="177.8" y="10.16">
-<attribute name="OC_NEWARK" x="177.8" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="177.8" y="10.16" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="177.8" y="10.16" size="1.778" layer="96" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -7496,11 +7459,6 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps731"&gt; Datasheet &lt;/a&gt;</
 </instance>
 <instance part="R9" gate="G$1" x="144.78" y="35.56" rot="R90"/>
 <instance part="R10" gate="G$1" x="154.94" y="35.56" rot="R90"/>
-<instance part="R1" gate="G$1" x="129.54" y="43.18" rot="R90">
-<attribute name="OC_NEWARK" x="129.54" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="129.54" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="129.54" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
